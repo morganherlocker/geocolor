@@ -16,5 +16,5 @@ var geo = {
 geo = geocolor(g, 'jenks', 5, ['green', 'yellow', 'red'])
 
 // properties now contains style info with encoded colors
-console.log(gColored) 
+console.log(geo) 
 ```
