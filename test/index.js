@@ -13,7 +13,7 @@ describe('geocolor', function(){
     geo.features.properties['marker-style'].should.be.ok
     console.log(geo)
   })
-  it('should take a set of points and classify based on quantiles, then output geojson with color styles', function(){
+  xit('should take a set of points and classify based on quantiles, then output geojson with color styles', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/points1.geojson'))
     geo.features[0].should.be.ok
 
@@ -21,6 +21,6 @@ describe('geocolor', function(){
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features.properties['marker-style'].should.be.ok
-    console.log(geo)
+    //console.log(geo)
   })
 })
