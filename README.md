@@ -15,7 +15,7 @@ var geo = {
   // [point data](https://gist.github.com/morganherlocker/b05c4afcf721adcb3df2)
 }
 
-geo = geocolor(g, 'elevation', 'jenks', 5, ['green', 'yellow', 'red'])
+geo = geocolor(g, 'elevation', 'jenks', 5, 'red')
 
 // properties now contains style info with encoded colors
 console.log(geo) 
