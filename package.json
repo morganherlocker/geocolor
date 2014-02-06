@@ -18,5 +18,13 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/morganherlocker/geocolor/issues"
-  }
+  },
+  "dependencies": {
+    "simple-statistics": "~0.7.0",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": [
+    "mocha",
+    "should"
+  ]
 }
