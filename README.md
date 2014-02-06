@@ -23,7 +23,7 @@ Curently supported classifications:
 
 ##Example
 
-![gradient](https://github.com/morganherlocker/geocolor/blob/master/img/Screen%20Shot%202014-02-06%20at%203.55.30%20PM.jpg)
+![gradient](https://raw2.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-02-06%20at%203.55.30%20PM.jpg)
 
 ```js
 var geocolor = require('geocolor')
