@@ -17,9 +17,10 @@ describe('geocolor', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/points1.geojson'))
     geo.features[0].should.be.ok
 
-    geo = geocolor(geo, 'elevation', 'quantile', 5, ['green', 'yellow', 'red'])
+    geo = geocolor(geo, 'elevation', 'quantile', 7, ['green', 'yellow', 'red'])
     geo.should.be.ok
     geo.features.should.be.ok
-    geo.features[0].properties['marker-style'].should.be.ok
+    geo.features[0].properties['marker-color'].should.be.ok
+    fs.writeFileSync(__dirname+'/out/styled2.geojson', JSON.stringify(geo, null, 2))
   })
 })
