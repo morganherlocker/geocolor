@@ -8,6 +8,8 @@ This module uses [turf](https://github.com/morganherlocker/turf) to classify dat
 
 ##Example
 
+![gradient](https://raw2.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-02-06%20at%209.57.54%20AM.jpg)
+
 ```js
 var geocolor = require('geocolor')
 
