@@ -13,11 +13,16 @@ This module uses [turf](https://github.com/morganherlocker/turf) to classify dat
 ```js
 var geocolor = require('geocolor')
 
-var geo = {
+var g = {
   // [point data](https://gist.github.com/morganherlocker/b05c4afcf721adcb3df2)
 }
 
-geo = geocolor(g, 'elevation', 'jenks', 5, ['green', 'yellow', 'red'])
+var z = 'elevation',
+    classification = 'jenks', // 'quantile' and 'interval' also supported
+    numberOfBreaks = 5,
+    colors = ['green', yellow, 'red']
+
+geo = geocolor(g, z, classification, numberOfBreaks, colors)
 
 // properties now contains style info with encoded colors
 console.log(geo) 
