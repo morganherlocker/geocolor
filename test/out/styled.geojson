@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 31,
-        "marker-color": "#000000"
+        "marker-color": "#FFA3A3"
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 43,
-        "marker-color": "#000000"
+        "marker-color": "#FFA3A3"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +33,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 56,
-        "marker-color": "#000000"
+        "marker-color": "#FF7F7F"
       },
       "geometry": {
         "type": "Point",
@@ -47,7 +47,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 66,
-        "marker-color": "#000000"
+        "marker-color": "#FF7F7F"
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +61,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 55,
-        "marker-color": "#000000"
+        "marker-color": "#FFA3A3"
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +75,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 123,
-        "marker-color": "#FFFFFF"
+        "marker-color": "#FF0000"
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 155,
-        "marker-color": "#FFFFFF"
+        "marker-color": "#FF0000"
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +103,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 44,
-        "marker-color": "#000000"
+        "marker-color": "#FFA3A3"
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +117,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 15,
-        "marker-color": "#3333FF"
+        "marker-color": "#FFCCCC"
       },
       "geometry": {
         "type": "Point",
@@ -131,7 +131,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 100,
-        "marker-color": "#FFFFFF"
+        "marker-color": "#FF0000"
       },
       "geometry": {
         "type": "Point",
@@ -145,7 +145,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 20,
-        "marker-color": "#3333FF"
+        "marker-color": "#FFCCCC"
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +159,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 29,
-        "marker-color": "#3333FF"
+        "marker-color": "#FFCCCC"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "elevation": 78,
-        "marker-color": "#000000"
+        "marker-color": "#FF5A5A"
       },
       "geometry": {
         "type": "Point",
