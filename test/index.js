@@ -7,7 +7,7 @@ describe('geocolor', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/points1.geojson'))
     geo.features[0].should.be.ok
 
-    geo = geocolor(geo, 'elevation', 'jenks', 5, 'red')
+    geo = geocolor(geo, 'elevation', 'jenks', 5, ['green', 'yellow', 'red'])
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features[0].properties['marker-color'].should.be.ok
