@@ -3,6 +3,12 @@ geocolor
 
 geocolor classifies data contained in geojson properties, and assigns color values based on the [simplestyle-spec](https://github.com/mapbox/simplestyle-spec/blob/master/1.1.0/README.md). This means that when your geojson is rendered in github, gists, mapbox, or other simplestyle-spec compliant renderers, you will get nice styles that help to visualize your data.
 
+##Install
+
+```bash
+npm install geocolor
+```
+
 ##Colors
 
 The color gradient is defined by simply passing an array of colors with as many stops as you want.
