@@ -4,182 +4,1748 @@
     {
       "type": "Feature",
       "properties": {
-        "elevation": 31,
-        "marker-color": "#90c800"
+        "Inverse Ra": 30,
+        "State0": "AK",
+        "Population": 275043,
+        "Rank0": 71,
+        "City 0": "Anchorage",
+        "County0": "Anchorage Borough",
+        "marker-color": "#76bb00"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.97093200683594,
-          39.05065194925692
+          -149.90249633789062,
+          61.217506408691406
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 43,
-        "marker-color": "#90c800"
+        "Inverse Ra": 19,
+        "State0": "AL",
+        "Population": 231483,
+        "Rank0": 82,
+        "City 0": "Birmingham",
+        "County0": "Jefferson County",
+        "marker-color": "#52a900"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.97213363647461,
-          39.07131203694956
+          -86.802490234375,
+          33.520668029785156
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 56,
-        "marker-color": "#fffd00"
+        "Inverse Ra": 18,
+        "State0": "AZ",
+        "Population": 226013,
+        "Rank0": 83,
+        "City 0": "Scottsdale",
+        "County0": "Maricopa County",
+        "marker-color": "#52a900"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.96269226074219,
-          39.07810855029579
+          -111.89903259277344,
+          33.509212493896484
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 66,
-        "marker-color": "#fffd00"
+        "Inverse Ra": 25,
+        "State0": "AZ",
+        "Population": 239435,
+        "Rank0": 76,
+        "City 0": "Glendale",
+        "County0": "Maricopa County",
+        "marker-color": "#76bb00"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.9527359008789,
-          39.06731378214552
+          -112.18598937988281,
+          33.53865051269531
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 55,
-        "marker-color": "#b8db00"
+        "Inverse Ra": 59,
+        "State0": "AZ",
+        "Population": 442780,
+        "Rank0": 42,
+        "City 0": "Mesa",
+        "County0": "Maricopa County",
+        "marker-color": "#b6da00"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.94998931884764,
-          39.05438454155225
+          -111.8226318359375,
+          33.422264099121094
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 123,
+        "Inverse Ra": 23,
+        "State0": "AZ",
+        "Population": 234939,
+        "Rank0": 78,
+        "City 0": "Chandler",
+        "County0": "Maricopa County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.84125518798828,
+          33.30615997314453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 69,
+        "State0": "AZ",
+        "Population": 515526,
+        "Rank0": 32,
+        "City 0": "Tucson",
+        "County0": "Pima County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.92647552490234,
+          32.221744537353516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 3,
+        "State0": "CA",
+        "Population": 207011,
+        "Rank0": 98,
+        "City 0": "Modesto",
+        "County0": "Stanislaus County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.99687194824219,
+          37.639102935791016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 63,
+        "State0": "CA",
+        "Population": 456441,
+        "Rank0": 38,
+        "City 0": "Sacramento",
+        "County0": "Sacramento County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.49440002441406,
+          38.581573486328125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 86,
+        "State0": "CA",
+        "Population": 739426,
+        "Rank0": 15,
+        "City 0": "San Francisco",
+        "County0": "San Francisco County",
         "marker-color": "#ff0000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.93488311767577,
-          39.08237269503051
+          -122.4194107055664,
+          37.774932861328125
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 155,
+        "Inverse Ra": 25,
+        "State0": "CA",
+        "Population": 239435,
+        "Rank0": 76,
+        "City 0": "Glendale",
+        "County0": "Los Angeles County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.25508117675781,
+          34.14250946044922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 56,
+        "State0": "CA",
+        "Population": 395274,
+        "Rank0": 45,
+        "City 0": "Oakland",
+        "County0": "Alameda County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27080535888672,
+          37.80436706542969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 35,
+        "State0": "CA",
+        "Population": 286926,
+        "Rank0": 66,
+        "City 0": "Stockton",
+        "County0": "San Joaquin County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.29077911376953,
+          37.95770263671875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 36,
+        "State0": "CA",
+        "Population": 290086,
+        "Rank0": 65,
+        "City 0": "Riverside",
+        "County0": "Riverside County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.39615631103516,
+          33.953346252441406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 45,
+        "State0": "CA",
+        "Population": 331804,
+        "Rank0": 56,
+        "City 0": "Anaheim",
+        "County0": "Orange County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.91450500488281,
+          33.835296630859375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 67,
+        "State0": "CA",
+        "Population": 474014,
+        "Rank0": 34,
+        "City 0": "Long Beach",
+        "County0": "Los Angeles County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1892318725586,
+          33.76696014404297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 46,
+        "State0": "CA",
+        "Population": 340368,
+        "Rank0": 55,
+        "City 0": "Santa Ana",
+        "County0": "Orange County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.86783599853516,
+          33.74557876586914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 91,
+        "State0": "CA",
+        "Population": 912332,
+        "Rank0": 10,
+        "City 0": "San Jose",
+        "County0": "Santa Clara County",
         "marker-color": "#ff0000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.92973327636719,
-          39.06917966257361
+          -121.89495849609375,
+          37.33938217163086
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 44,
-        "marker-color": "#b8db00"
+        "Inverse Ra": 6,
+        "State0": "CA",
+        "Population": 210497,
+        "Rank0": 95,
+        "City 0": "Chula Vista",
+        "County0": "San Diego County",
+        "marker-color": "#52a900"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.90947723388672,
-          39.06184913429154
+          -117.08419036865234,
+          32.640052795410156
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 15,
-        "marker-color": "#41a000"
+        "Inverse Ra": 37,
+        "State0": "CA",
+        "Population": 295536,
+        "Rank0": 64,
+        "City 0": "Bakersfield",
+        "County0": "Kern County",
+        "marker-color": "#76bb00"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.89179611206053,
-          39.07890809706475
+          -119.01871490478516,
+          35.373287200927734
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 100,
-        "marker-color": "#ff6900"
+        "Inverse Ra": 64,
+        "State0": "CA",
+        "Population": 461116,
+        "Rank0": 37,
+        "City 0": "Fresno",
+        "County0": "Fresno County",
+        "marker-color": "#b6da00"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.93127822875975,
-          39.037052980497364
+          -119.77236938476562,
+          36.74773025512695
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 20,
-        "marker-color": "#66b200"
+        "Inverse Ra": 75,
+        "State0": "CO",
+        "Population": 557917,
+        "Rank0": 26,
+        "City 0": "Denver",
+        "County0": "Denver County",
+        "marker-color": "#ff0000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.90776062011719,
-          39.04331949719747
+          -104.98470306396484,
+          39.739158630371094
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 29,
-        "marker-color": "#66b200"
+        "Inverse Ra": 51,
+        "State0": "CO",
+        "Population": 369815,
+        "Rank0": 50,
+        "City 0": "Colorado Springs",
+        "County0": "El Paso County",
+        "marker-color": "#b6da00"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.90621566772461,
-          39.09543003500107
+          -104.82135772705078,
+          38.83388137817383
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "elevation": 78,
-        "marker-color": "#ff6900"
+        "Inverse Ra": 39,
+        "State0": "CO",
+        "Population": 297235,
+        "Rank0": 62,
+        "City 0": "Aurora",
+        "County0": "Arapahoe County",
+        "marker-color": "#76bb00"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.95771408081055,
-          39.096629057272466
+          -104.83192443847656,
+          39.729427337646484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 74,
+        "State0": "DC",
+        "Population": 550521,
+        "Rank0": 27,
+        "City 0": "Washington",
+        "County0": "District of Columbia",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03636932373047,
+          38.895111083984375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 43,
+        "State0": "FL",
+        "Population": 325989,
+        "Rank0": 58,
+        "City 0": "Tampa",
+        "County0": "Hillsborough County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.45842742919922,
+          27.947519302368164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 13,
+        "State0": "FL",
+        "Population": 220485,
+        "Rank0": 88,
+        "City 0": "Hialeah",
+        "County0": "Miami-Dade County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2780990600586,
+          25.857593536376953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 88,
+        "State0": "FL",
+        "Population": 782623,
+        "Rank0": 13,
+        "City 0": "Jacksonville",
+        "County0": "Duval County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.65564727783203,
+          30.332178115844727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 9,
+        "State0": "FL",
+        "Population": 213223,
+        "Rank0": 92,
+        "City 0": "Orlando",
+        "County0": "Orange County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.37923431396484,
+          28.538339614868164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 55,
+        "State0": "FL",
+        "Population": 386417,
+        "Rank0": 46,
+        "City 0": "Miami",
+        "County0": "Miami-Dade County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.19366455078125,
+          25.774267196655273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 65,
+        "State0": "GA",
+        "Population": 470688,
+        "Rank0": 36,
+        "City 0": "Atlanta",
+        "County0": "Fulton County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38798522949219,
+          33.74899673461914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 53,
+        "State0": "HI",
+        "Population": 377379,
+        "Rank0": 48,
+        "City 0": "Honolulu",
+        "County0": "Honolulu County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.85556030273438,
+          21.303775787353516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 39,
+        "State0": "IL",
+        "Population": 297235,
+        "Rank0": 62,
+        "City 0": "Aurora",
+        "County0": "Kane County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.320068359375,
+          41.760589599609375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 89,
+        "State0": "IN",
+        "Population": 784118,
+        "Rank0": 12,
+        "City 0": "Indianapolis",
+        "County0": "Marion County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.15828704833984,
+          39.76844787597656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 17,
+        "State0": "IN",
+        "Population": 223341,
+        "Rank0": 84,
+        "City 0": "Fort Wayne",
+        "County0": "Allen County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.12886047363281,
+          41.130611419677734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 49,
+        "State0": "KS",
+        "Population": 354865,
+        "Rank0": 52,
+        "City 0": "Wichita",
+        "County0": "Sedgwick County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33753967285156,
+          37.69223403930664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 60,
+        "State0": "KS",
+        "Population": 444965,
+        "Rank0": 41,
+        "City 0": "Kansas City",
+        "County0": "Wyandotte County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.62745666503906,
+          39.114173889160156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 29,
+        "State0": "KY",
+        "Population": 268080,
+        "Rank0": 72,
+        "City 0": "Lexington-Fayette",
+        "County0": "Fayette County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45854949951172,
+          38.04979705810547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 62,
+        "State0": "LA",
+        "Population": 454863,
+        "Rank0": 39,
+        "City 0": "New Orleans",
+        "County0": "Orleans Parish",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07506561279297,
+          29.95464324951172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 15,
+        "State0": "LA",
+        "Population": 222064,
+        "Rank0": 86,
+        "City 0": "Baton Rouge",
+        "County0": "East Baton Rouge Parish",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.15454864501953,
+          30.45075035095215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 76,
+        "State0": "MA",
+        "Population": 559034,
+        "Rank0": 25,
+        "City 0": "Boston",
+        "County0": "Suffolk County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.05977630615234,
+          42.358428955078125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 82,
+        "State0": "MD",
+        "Population": 635815,
+        "Rank0": 19,
+        "City 0": "Baltimore",
+        "County0": "Baltimore City",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.61219024658203,
+          39.29038619995117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 71,
+        "State0": "ME",
+        "Population": 533427,
+        "Rank0": 30,
+        "City 0": "Portland",
+        "County0": "Cumberland County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.25531768798828,
+          43.66147232055664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 90,
+        "State0": "MI",
+        "Population": 886671,
+        "Rank0": 11,
+        "City 0": "Detroit",
+        "County0": "Wayne County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0457534790039,
+          42.33142852783203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 52,
+        "State0": "MN",
+        "Population": 372811,
+        "Rank0": 49,
+        "City 0": "Minneapolis",
+        "County0": "Hennepin County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.26383209228516,
+          44.97996520996094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 8,
+        "State0": "MN",
+        "Population": 211091,
+        "Rank0": 93,
+        "City 0": "Rochester",
+        "County0": "Olmsted County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.46989440917969,
+          44.021636962890625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 60,
+        "State0": "MO",
+        "Population": 444965,
+        "Rank0": 41,
+        "City 0": "Kansas City",
+        "County0": "Jackson County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.57856750488281,
+          39.09972381591797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 88,
+        "State0": "NC",
+        "Population": 782623,
+        "Rank0": 13,
+        "City 0": "Jacksonville",
+        "County0": "Onslow County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.43024444580078,
+          34.75405502319336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 80,
+        "State0": "NC",
+        "Population": 610949,
+        "Rank0": 21,
+        "City 0": "Charlotte",
+        "County0": "Mecklenburg County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.84312438964844,
+          35.227081298828125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 2,
+        "State0": "NC",
+        "Population": 204845,
+        "Rank0": 99,
+        "City 0": "Durham",
+        "County0": "Durham County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.89862060546875,
+          35.99403381347656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 47,
+        "State0": "NC",
+        "Population": 341530,
+        "Rank0": 54,
+        "City 0": "Raleigh",
+        "County0": "Wake County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.63861846923828,
+          35.772090911865234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 21,
+        "State0": "NC",
+        "Population": 231962,
+        "Rank0": 80,
+        "City 0": "Greensboro",
+        "County0": "Guilford County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.79197692871094,
+          36.072635650634766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 24,
+        "State0": "NE",
+        "Population": 239213,
+        "Rank0": 77,
+        "City 0": "Lincoln",
+        "County0": "Lancaster County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.66696166992188,
+          40.79999923706055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 57,
+        "State0": "NE",
+        "Population": 414521,
+        "Rank0": 44,
+        "City 0": "Omaha",
+        "County0": "Douglas County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.93778991699219,
+          41.258609771728516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 26,
+        "State0": "NJ",
+        "Population": 239614,
+        "Rank0": 75,
+        "City 0": "Jersey City",
+        "County0": "Hudson County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07764434814453,
+          40.72816467285156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 33,
+        "State0": "NJ",
+        "Population": 280666,
+        "Rank0": 68,
+        "City 0": "Newark",
+        "County0": "Essex County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.17237091064453,
+          40.73566436767578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 68,
+        "State0": "NM",
+        "Population": 494236,
+        "Rank0": 33,
+        "City 0": "Albuquerque",
+        "County0": "Bernalillo County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.65113830566406,
+          35.0844841003418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 72,
+        "State0": "NV",
+        "Population": 545147,
+        "Rank0": 29,
+        "City 0": "Las Vegas",
+        "County0": "Clark County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.13722229003906,
+          36.17496871948242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 22,
+        "State0": "NV",
+        "Population": 232146,
+        "Rank0": 79,
+        "City 0": "Henderson",
+        "County0": "Clark County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.98193359375,
+          36.039695739746094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 1,
+        "State0": "NV",
+        "Population": 203550,
+        "Rank0": 100,
+        "City 0": "Reno",
+        "County0": "Washoe County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.81380462646484,
+          39.529632568359375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 32,
+        "State0": "NY",
+        "Population": 279745,
+        "Rank0": 69,
+        "City 0": "Buffalo",
+        "County0": "Erie County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.87836456298828,
+          42.88644790649414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 8,
+        "State0": "NY",
+        "Population": 211091,
+        "Rank0": 93,
+        "City 0": "Rochester",
+        "County0": "Monroe County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.61555480957031,
+          43.154781341552734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 66,
+        "State0": "NY",
+        "Population": 472122,
+        "Rank0": 35,
+        "City 0": "Brookhaven",
+        "County0": "Suffolk County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.91255950927734,
+          40.78034591674805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 38,
+        "State0": "NY",
+        "Population": 296917,
+        "Rank0": 63,
+        "City 0": "Oyster Bay",
+        "County0": "Nassau County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5272445678711,
+          40.872230529785156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 44,
+        "State0": "NY",
+        "Population": 329580,
+        "Rank0": 57,
+        "City 0": "Islip",
+        "County0": "Suffolk County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.20967102050781,
+          40.72988510131836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 10,
+        "State0": "NY",
+        "Population": 216230,
+        "Rank0": 91,
+        "City 0": "Babylon",
+        "County0": "Suffolk County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32567596435547,
+          40.69565963745117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 87,
+        "State0": "NY",
+        "Population": 751276,
+        "Rank0": 14,
+        "City 0": "Hempstead",
+        "County0": "Nassau County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61874389648438,
+          40.70621109008789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 61,
+        "State0": "OH",
+        "Population": 452208,
+        "Rank0": 40,
+        "City 0": "Cleveland",
+        "County0": "Cuyahoga County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6954116821289,
+          41.499488830566406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 41,
+        "State0": "OH",
+        "Population": 308728,
+        "Rank0": 60,
+        "City 0": "Cincinnati",
+        "County0": "Hamilton County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45687866210938,
+          39.16200256347656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 7,
+        "State0": "OH",
+        "Population": 210795,
+        "Rank0": 94,
+        "City 0": "Akron",
+        "County0": "Summit County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.51901245117188,
+          41.08144760131836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 40,
+        "State0": "OH",
+        "Population": 301285,
+        "Rank0": 61,
+        "City 0": "Toledo",
+        "County0": "Lucas County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.55521392822266,
+          41.6639404296875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 85,
+        "State0": "OH",
+        "Population": 730657,
+        "Rank0": 16,
+        "City 0": "Columbus",
+        "County0": "Franklin County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9988021850586,
+          39.96117401123047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 54,
+        "State0": "OK",
+        "Population": 382457,
+        "Rank0": 47,
+        "City 0": "Tulsa",
+        "County0": "Tulsa County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9927749633789,
+          36.15398025512695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 70,
+        "State0": "OK",
+        "Population": 531324,
+        "Rank0": 31,
+        "City 0": "Oklahoma City",
+        "County0": "Oklahoma County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51642608642578,
+          35.467559814453125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 71,
+        "State0": "OR",
+        "Population": 533427,
+        "Rank0": 30,
+        "City 0": "Portland",
+        "County0": "Multnomah County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67620849609375,
+          45.5234489440918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 42,
+        "State0": "PA",
+        "Population": 316718,
+        "Rank0": 59,
+        "City 0": "Pittsburgh",
+        "County0": "Allegheny County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.99588775634766,
+          40.44062805175781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 96,
+        "State0": "PA",
+        "Population": 1463281,
+        "Rank0": 5,
+        "City 0": "Philadelphia",
+        "County0": "Philadelphia County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16378784179688,
+          39.952335357666016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 83,
+        "State0": "TN",
+        "Population": 672277,
+        "Rank0": 18,
+        "City 0": "Memphis",
+        "County0": "Shelby County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.04898071289062,
+          35.149532318115234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 5,
+        "State0": "TX",
+        "Population": 209737,
+        "Rank0": 96,
+        "City 0": "Lubbock",
+        "County0": "Lubbock County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.85516357421875,
+          33.57786560058594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 28,
+        "State0": "TX",
+        "Population": 250096,
+        "Rank0": 73,
+        "City 0": "Plano",
+        "County0": "Collin County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.69888305664062,
+          33.019840240478516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 11,
+        "State0": "TX",
+        "Population": 216346,
+        "Rank0": 90,
+        "City 0": "Garland",
+        "County0": "Dallas County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.63888549804688,
+          32.91262435913086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 50,
+        "State0": "TX",
+        "Population": 362805,
+        "Rank0": 51,
+        "City 0": "Arlington",
+        "County0": "Tarrant County",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.10807037353516,
+          32.73569107055664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 81,
+        "State0": "TX",
+        "Population": 624067,
+        "Rank0": 20,
+        "City 0": "Fort Worth",
+        "County0": "Tarrant County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32085418701172,
+          32.72541046142578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 79,
+        "State0": "TX",
+        "Population": 598590,
+        "Rank0": 22,
+        "City 0": "El Paso",
+        "County0": "El Paso County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.48693084716797,
+          31.758718490600586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 84,
+        "State0": "TX",
+        "Population": 690252,
+        "Rank0": 17,
+        "City 0": "Austin",
+        "County0": "Travis County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7430648803711,
+          30.267147064208984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 34,
+        "State0": "TX",
+        "Population": 283474,
+        "Rank0": 67,
+        "City 0": "Corpus Christi",
+        "County0": "Nueces County",
+        "marker-color": "#76bb00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39637756347656,
+          27.80058479309082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 4,
+        "State0": "TX",
+        "Population": 208754,
+        "Rank0": 97,
+        "City 0": "Laredo",
+        "County0": "Webb County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50753784179688,
+          27.506404876708984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 12,
+        "State0": "VA",
+        "Population": 218968,
+        "Rank0": 89,
+        "City 0": "Chesapeake",
+        "County0": "Chesapeake City",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.27494812011719,
+          36.81903839111328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 20,
+        "State0": "VA",
+        "Population": 231954,
+        "Rank0": 81,
+        "City 0": "Norfolk",
+        "County0": "Norfolk City",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.28334045410156,
+          36.84831619262695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 58,
+        "State0": "VA",
+        "Population": 438415,
+        "Rank0": 43,
+        "City 0": "Virginia Beach",
+        "County0": "Virginia Beach City",
+        "marker-color": "#b6da00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.97798156738281,
+          36.852928161621094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 14,
+        "State0": "WI",
+        "Population": 221551,
+        "Rank0": 87,
+        "City 0": "Madison",
+        "County0": "Dane County",
+        "marker-color": "#52a900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.40122985839844,
+          43.073055267333984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Inverse Ra": 78,
+        "State0": "WI",
+        "Population": 578887,
+        "Rank0": 23,
+        "City 0": "Milwaukee",
+        "County0": "Milwaukee County",
+        "marker-color": "#ff0000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9064712524414,
+          43.03890609741211
         ]
       }
     }
