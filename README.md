@@ -23,21 +23,21 @@ Curently supported classifications:
 
 ##Example
 
-![gradient](https://raw2.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-02-06%20at%203.13.09%20PM.jpg)
+![gradient](https://github.com/morganherlocker/geocolor/blob/master/img/Screen%20Shot%202014-02-06%20at%203.55.30%20PM.jpg)
 
 ```js
 var geocolor = require('geocolor')
 
-var g = {
-  // [point data](https://gist.github.com/morganherlocker/b05c4afcf721adcb3df2)
+var cities = {
+  // [point data](https://github.com/morganherlocker/geocolor/blob/master/test/in/cities.geojson)
 }
 
-var z = 'elevation',
+var z = 'Population',
     classification = 'jenks', // 'quantile' and 'interval' also supported
     numberOfBreaks = 5,
     colors = ['green', 'yellow', 'red']
 
-geo = geocolor(g, z, classification, numberOfBreaks, colors)
+geo = geocolor(cities, z, classification, numberOfBreaks, colors)
 
 // properties now contains style info with encoded colors
 console.log(geo) 
