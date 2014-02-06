@@ -10,7 +10,7 @@ This module uses [turf](https://github.com/morganherlocker/turf) to classify dat
 var geocolor = require('geocolor')
 
 var geo = {
-  //point data
+  // [point data](https://gist.github.com/morganherlocker/b05c4afcf721adcb3df2)
 }
 
 geo = geocolor(g, 'jenks', 5, ['green', 'yellow', 'red'])
