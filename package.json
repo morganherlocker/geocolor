@@ -1,0 +1,22 @@
+{
+  "name": "geocolor",
+  "version": "0.0.0",
+  "description": "style geojson based on data classifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganherlocker/geocolor.git"
+  },
+  "keywords": [
+    "geojson",
+    "style"
+  ],
+  "author": "morganherlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morganherlocker/geocolor/issues"
+  }
+}
