@@ -1,0 +1,15 @@
+World Cat Population, World, 2006
+
+This dataset illustrates the population, by year, of many cats across the globe.  Also included are the year, name of animal, and location.  A value of -1 means that the data was not connected, and a value of -10 means that the population number was unknown.  In cases where max and min estimate were given, only the lowest estimate was used.Source:  Animal InfoURL:  http://www.animalinfo.org/groupind.htm#antelopeDate Accessed: November 27, 2007
+
+Attributes:
+LONGITUDE0: LONGITUDE - 
+SNOW LEOPA: SNOW LEOPARD - 
+COUNTRY0: COUNTRY - 
+IBERIAN LY: IBERIAN LYNX - 
+LATITUDE0: LATITUDE - 
+CHEETAH0: CHEETAH - 
+YEAR0: YEAR - 
+TIGER0: TIGER - 
+
+exported on Sat Jul 28 01:59:40 -0400 2012
