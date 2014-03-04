@@ -319,7 +319,7 @@
         "FIPS": "45021",
         "PovertyEst": "SC",
         "poverty": 12,
-        "fill": "#2e00d0",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -440,7 +440,7 @@
         "FIPS": "45091",
         "PovertyEst": "SC",
         "poverty": 34,
-        "fill": "#ff0000",
+        "fill": "#880076",
         "stroke": "#000000"
       },
       "geometry": {
@@ -573,7 +573,7 @@
         "FIPS": "45077",
         "PovertyEst": "SC",
         "poverty": 22,
-        "fill": "#7a0084",
+        "fill": "#6f008f",
         "stroke": "#000000"
       },
       "geometry": {
@@ -726,7 +726,7 @@
         "FIPS": "45057",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#4700b7",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -883,7 +883,7 @@
         "FIPS": "45073",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#4700b7",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -1136,7 +1136,7 @@
         "FIPS": "45087",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -1293,7 +1293,7 @@
         "FIPS": "45023",
         "PovertyEst": "SC",
         "poverty": 9,
-        "fill": "#2300db",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -1390,7 +1390,7 @@
         "FIPS": "45007",
         "PovertyEst": "SC",
         "poverty": 29,
-        "fill": "#7a0084",
+        "fill": "#6f008f",
         "stroke": "#000000"
       },
       "geometry": {
@@ -1499,7 +1499,7 @@
         "FIPS": "45025",
         "PovertyEst": "SC",
         "poverty": 11,
-        "fill": "#2e00d0",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -1672,7 +1672,7 @@
         "FIPS": "45069",
         "PovertyEst": "SC",
         "poverty": 8,
-        "fill": "#2300db",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -1833,7 +1833,7 @@
         "FIPS": "45059",
         "PovertyEst": "SC",
         "poverty": 14,
-        "fill": "#4700b7",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -1982,7 +1982,7 @@
         "FIPS": "45033",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#2e00d0",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -2083,7 +2083,7 @@
         "FIPS": "45055",
         "PovertyEst": "SC",
         "poverty": 11,
-        "fill": "#2e00d0",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -2268,7 +2268,7 @@
         "FIPS": "45039",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -2369,7 +2369,7 @@
         "FIPS": "45031",
         "PovertyEst": "SC",
         "poverty": 15,
-        "fill": "#4700b7",
+        "fill": "#4f00af",
         "stroke": "#000000"
       },
       "geometry": {
@@ -2570,7 +2570,7 @@
         "FIPS": "45071",
         "PovertyEst": "SC",
         "poverty": 7,
-        "fill": "#2300db",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -2755,7 +2755,7 @@
         "FIPS": "45001",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -2852,7 +2852,7 @@
         "FIPS": "45047",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#4700b7",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -2973,7 +2973,7 @@
         "FIPS": "45061",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -3150,7 +3150,7 @@
         "FIPS": "45041",
         "PovertyEst": "SC",
         "poverty": 28,
-        "fill": "#7a0084",
+        "fill": "#6f008f",
         "stroke": "#000000"
       },
       "geometry": {
@@ -3375,7 +3375,7 @@
         "FIPS": "45051",
         "PovertyEst": "SC",
         "poverty": 51,
-        "fill": "#ff0000",
+        "fill": "#be0040",
         "stroke": "#000000"
       },
       "geometry": {
@@ -3544,7 +3544,7 @@
         "FIPS": "45067",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#2e00d0",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -4058,7 +4058,7 @@
         "FIPS": "45063",
         "PovertyEst": "SC",
         "poverty": 38,
-        "fill": "#ff0000",
+        "fill": "#be0040",
         "stroke": "#000000"
       },
       "geometry": {
@@ -4275,7 +4275,7 @@
         "FIPS": "45081",
         "PovertyEst": "SC",
         "poverty": 3,
-        "fill": "#0e00f0",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -4380,7 +4380,7 @@
         "FIPS": "45085",
         "PovertyEst": "SC",
         "poverty": 18,
-        "fill": "#4700b7",
+        "fill": "#4f00af",
         "stroke": "#000000"
       },
       "geometry": {
@@ -4613,7 +4613,7 @@
         "FIPS": "45065",
         "PovertyEst": "SC",
         "poverty": 1,
-        "fill": "#0e00f0",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -4830,7 +4830,7 @@
         "FIPS": "45037",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -4963,7 +4963,7 @@
         "FIPS": "45027",
         "PovertyEst": "SC",
         "poverty": 7,
-        "fill": "#2300db",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -5152,7 +5152,7 @@
         "FIPS": "45089",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#2e00d0",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -5373,7 +5373,7 @@
         "FIPS": "45017",
         "PovertyEst": "SC",
         "poverty": 3,
-        "fill": "#0e00f0",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -5638,7 +5638,7 @@
         "FIPS": "45003",
         "PovertyEst": "SC",
         "poverty": 31,
-        "fill": "#7a0084",
+        "fill": "#880076",
         "stroke": "#000000"
       },
       "geometry": {
@@ -5815,7 +5815,7 @@
         "FIPS": "45043",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#4700b7",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -6028,7 +6028,7 @@
         "FIPS": "45075",
         "PovertyEst": "SC",
         "poverty": 21,
-        "fill": "#7a0084",
+        "fill": "#4f00af",
         "stroke": "#000000"
       },
       "geometry": {
@@ -6273,7 +6273,7 @@
         "FIPS": "45015",
         "PovertyEst": "SC",
         "poverty": 27,
-        "fill": "#7a0084",
+        "fill": "#6f008f",
         "stroke": "#000000"
       },
       "geometry": {
@@ -6530,7 +6530,7 @@
         "FIPS": "45011",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -6619,7 +6619,7 @@
         "FIPS": "45009",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -6720,7 +6720,7 @@
         "FIPS": "45035",
         "PovertyEst": "SC",
         "poverty": 17,
-        "fill": "#4700b7",
+        "fill": "#4f00af",
         "stroke": "#000000"
       },
       "geometry": {
@@ -6893,7 +6893,7 @@
         "FIPS": "45029",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#2e00d0",
+        "fill": "#3500c9",
         "stroke": "#000000"
       },
       "geometry": {
@@ -7134,7 +7134,7 @@
         "FIPS": "45005",
         "PovertyEst": "SC",
         "poverty": 3,
-        "fill": "#0e00f0",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -7295,7 +7295,7 @@
         "FIPS": "45049",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -7675,7 +7675,7 @@
         "FIPS": "45053",
         "PovertyEst": "SC",
         "poverty": 6,
-        "fill": "#1900e5",
+        "fill": "#1c00e2",
         "stroke": "#000000"
       },
       "geometry": {
@@ -7888,7 +7888,7 @@
         "FIPS": "45013",
         "PovertyEst": "SC",
         "poverty": 20,
-        "fill": "#7a0084",
+        "fill": "#4f00af",
         "stroke": "#000000"
       },
       "geometry": {

@@ -20,6 +20,7 @@ Curently supported classifications:
 - equal intervals
 - quantiles
 - jenks
+- custom
 
 ##Example
 
@@ -33,14 +34,24 @@ var cities = {
 }
 
 var z = 'Population',
-    classification = 'jenks', // 'quantile' and 'interval' also supported
     numberOfBreaks = 5,
     colors = ['green', 'yellow', 'red']
 
-geo = geocolor(cities, z, classification, numberOfBreaks, colors)
+// jenks
+geoJenks = geocolor.jenks(cities, z, numberOfBreaks, colors)
+console.log(geoJenks)
 
-// properties now contains style info with encoded colors
-console.log(geo) 
+// quantiles
+geoQuantiles = geocolor.quantiles(cities, z, numberOfBreaks, colors)
+console.log(geoQuantiles)
+
+// equal intervals
+geoEqualIntervals = geocolor.equalIntervals(cities, z, numberOfBreaks, colors)
+console.log(geoEqualIntervals)
+
+// custom breaks
+geoCustom = geocolor.custom(cities, z, [0,200000,300000,400000,500000,800000,1000000,1000000000], colors)
+console.log(geoCustom)
 ```
 
 ##Dev

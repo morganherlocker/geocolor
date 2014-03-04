@@ -1,6 +1,6 @@
 {
   "name": "geocolor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "style geojson based on data classifications",
   "main": "index.js",
   "scripts": {
