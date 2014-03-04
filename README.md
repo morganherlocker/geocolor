@@ -1,6 +1,8 @@
 geocolor
 ========
 
+
+
 geocolor classifies data contained in geojson properties, and assigns color values based on the [simplestyle-spec](https://github.com/mapbox/simplestyle-spec/blob/master/1.1.0/README.md). This means that when your geojson is rendered in github, [gists](https://gist.github.com/morganherlocker/b963cc241018326f1d16), mapbox, or other simplestyle-spec compliant renderers, you will get nice styles that help to visualize your data.
 
 ##Install
@@ -69,5 +71,3 @@ npm test
 ![gradient](https://raw2.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-02-06%20at%203.13.09%20PM.jpg)
 
 ![gradient](https://raw2.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-02-06%20at%209.57.54%20AM.jpg)
-
-
