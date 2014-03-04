@@ -73,4 +73,14 @@ describe('geocolor', function(){
     geo.features[0].properties['fill'].should.be.ok
     fs.writeFileSync(__dirname+'/out/styled8.geojson', JSON.stringify(geo, null, 2))
   })
+  it('should take a set of polygons and classify based on quantiles, then output geojson with color styles', function(){
+    var geo = JSON.parse(fs.readFileSync(__dirname+'/in/rivers-west.json'))
+    geo.features[0].should.be.ok
+
+    geo = geocolor.jenks(geo, 'MEANV', 10, ['green', 'yellow', 'red'])
+    geo.should.be.ok
+    geo.features.should.be.ok
+    geo.features[0].properties['stroke'].should.be.ok
+    fs.writeFileSync(__dirname+'/out/styled9.geojson', JSON.stringify(geo, null, 2))
+  })
 })
