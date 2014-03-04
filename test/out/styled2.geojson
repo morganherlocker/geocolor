@@ -10,7 +10,7 @@
         "Rank0": 71,
         "City 0": "Anchorage",
         "County0": "Anchorage Borough",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -29,7 +29,7 @@
         "Rank0": 82,
         "City 0": "Birmingham",
         "County0": "Jefferson County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -48,7 +48,7 @@
         "Rank0": 83,
         "City 0": "Scottsdale",
         "County0": "Maricopa County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -67,7 +67,7 @@
         "Rank0": 76,
         "City 0": "Glendale",
         "County0": "Maricopa County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -86,7 +86,7 @@
         "Rank0": 42,
         "City 0": "Mesa",
         "County0": "Maricopa County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -105,7 +105,7 @@
         "Rank0": 78,
         "City 0": "Chandler",
         "County0": "Maricopa County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -124,7 +124,7 @@
         "Rank0": 32,
         "City 0": "Tucson",
         "County0": "Pima County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -143,7 +143,7 @@
         "Rank0": 98,
         "City 0": "Modesto",
         "County0": "Stanislaus County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -162,7 +162,7 @@
         "Rank0": 38,
         "City 0": "Sacramento",
         "County0": "Sacramento County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -181,7 +181,7 @@
         "Rank0": 15,
         "City 0": "San Francisco",
         "County0": "San Francisco County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -200,7 +200,7 @@
         "Rank0": 76,
         "City 0": "Glendale",
         "County0": "Los Angeles County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +219,7 @@
         "Rank0": 45,
         "City 0": "Oakland",
         "County0": "Alameda County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -238,7 +238,7 @@
         "Rank0": 66,
         "City 0": "Stockton",
         "County0": "San Joaquin County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -257,7 +257,7 @@
         "Rank0": 65,
         "City 0": "Riverside",
         "County0": "Riverside County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -276,7 +276,7 @@
         "Rank0": 56,
         "City 0": "Anaheim",
         "County0": "Orange County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +295,7 @@
         "Rank0": 34,
         "City 0": "Long Beach",
         "County0": "Los Angeles County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -314,7 +314,7 @@
         "Rank0": 55,
         "City 0": "Santa Ana",
         "County0": "Orange County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +333,7 @@
         "Rank0": 10,
         "City 0": "San Jose",
         "County0": "Santa Clara County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -352,7 +352,7 @@
         "Rank0": 95,
         "City 0": "Chula Vista",
         "County0": "San Diego County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -371,7 +371,7 @@
         "Rank0": 64,
         "City 0": "Bakersfield",
         "County0": "Kern County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -390,7 +390,7 @@
         "Rank0": 37,
         "City 0": "Fresno",
         "County0": "Fresno County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -409,7 +409,7 @@
         "Rank0": 26,
         "City 0": "Denver",
         "County0": "Denver County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -428,7 +428,7 @@
         "Rank0": 50,
         "City 0": "Colorado Springs",
         "County0": "El Paso County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +447,7 @@
         "Rank0": 62,
         "City 0": "Aurora",
         "County0": "Arapahoe County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -466,7 +466,7 @@
         "Rank0": 27,
         "City 0": "Washington",
         "County0": "District of Columbia",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -485,7 +485,7 @@
         "Rank0": 58,
         "City 0": "Tampa",
         "County0": "Hillsborough County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -504,7 +504,7 @@
         "Rank0": 88,
         "City 0": "Hialeah",
         "County0": "Miami-Dade County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +523,7 @@
         "Rank0": 13,
         "City 0": "Jacksonville",
         "County0": "Duval County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -542,7 +542,7 @@
         "Rank0": 92,
         "City 0": "Orlando",
         "County0": "Orange County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -561,7 +561,7 @@
         "Rank0": 46,
         "City 0": "Miami",
         "County0": "Miami-Dade County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -580,7 +580,7 @@
         "Rank0": 36,
         "City 0": "Atlanta",
         "County0": "Fulton County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -599,7 +599,7 @@
         "Rank0": 48,
         "City 0": "Honolulu",
         "County0": "Honolulu County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -618,7 +618,7 @@
         "Rank0": 62,
         "City 0": "Aurora",
         "County0": "Kane County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -637,7 +637,7 @@
         "Rank0": 12,
         "City 0": "Indianapolis",
         "County0": "Marion County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -656,7 +656,7 @@
         "Rank0": 84,
         "City 0": "Fort Wayne",
         "County0": "Allen County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -675,7 +675,7 @@
         "Rank0": 52,
         "City 0": "Wichita",
         "County0": "Sedgwick County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -694,7 +694,7 @@
         "Rank0": 41,
         "City 0": "Kansas City",
         "County0": "Wyandotte County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -713,7 +713,7 @@
         "Rank0": 72,
         "City 0": "Lexington-Fayette",
         "County0": "Fayette County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -732,7 +732,7 @@
         "Rank0": 39,
         "City 0": "New Orleans",
         "County0": "Orleans Parish",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -751,7 +751,7 @@
         "Rank0": 86,
         "City 0": "Baton Rouge",
         "County0": "East Baton Rouge Parish",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -770,7 +770,7 @@
         "Rank0": 25,
         "City 0": "Boston",
         "County0": "Suffolk County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -789,7 +789,7 @@
         "Rank0": 19,
         "City 0": "Baltimore",
         "County0": "Baltimore City",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -808,7 +808,7 @@
         "Rank0": 30,
         "City 0": "Portland",
         "County0": "Cumberland County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -827,7 +827,7 @@
         "Rank0": 11,
         "City 0": "Detroit",
         "County0": "Wayne County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -846,7 +846,7 @@
         "Rank0": 49,
         "City 0": "Minneapolis",
         "County0": "Hennepin County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -865,7 +865,7 @@
         "Rank0": 93,
         "City 0": "Rochester",
         "County0": "Olmsted County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -884,7 +884,7 @@
         "Rank0": 41,
         "City 0": "Kansas City",
         "County0": "Jackson County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -903,7 +903,7 @@
         "Rank0": 13,
         "City 0": "Jacksonville",
         "County0": "Onslow County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -922,7 +922,7 @@
         "Rank0": 21,
         "City 0": "Charlotte",
         "County0": "Mecklenburg County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -941,7 +941,7 @@
         "Rank0": 99,
         "City 0": "Durham",
         "County0": "Durham County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -960,7 +960,7 @@
         "Rank0": 54,
         "City 0": "Raleigh",
         "County0": "Wake County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -979,7 +979,7 @@
         "Rank0": 80,
         "City 0": "Greensboro",
         "County0": "Guilford County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -998,7 +998,7 @@
         "Rank0": 77,
         "City 0": "Lincoln",
         "County0": "Lancaster County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1017,7 +1017,7 @@
         "Rank0": 44,
         "City 0": "Omaha",
         "County0": "Douglas County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -1036,7 +1036,7 @@
         "Rank0": 75,
         "City 0": "Jersey City",
         "County0": "Hudson County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1055,7 +1055,7 @@
         "Rank0": 68,
         "City 0": "Newark",
         "County0": "Essex County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1074,7 +1074,7 @@
         "Rank0": 33,
         "City 0": "Albuquerque",
         "County0": "Bernalillo County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -1093,7 +1093,7 @@
         "Rank0": 29,
         "City 0": "Las Vegas",
         "County0": "Clark County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1112,7 +1112,7 @@
         "Rank0": 79,
         "City 0": "Henderson",
         "County0": "Clark County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1131,7 +1131,7 @@
         "Rank0": 100,
         "City 0": "Reno",
         "County0": "Washoe County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1150,7 +1150,7 @@
         "Rank0": 69,
         "City 0": "Buffalo",
         "County0": "Erie County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1169,7 +1169,7 @@
         "Rank0": 93,
         "City 0": "Rochester",
         "County0": "Monroe County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1188,7 +1188,7 @@
         "Rank0": 35,
         "City 0": "Brookhaven",
         "County0": "Suffolk County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -1207,7 +1207,7 @@
         "Rank0": 63,
         "City 0": "Oyster Bay",
         "County0": "Nassau County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1226,7 +1226,7 @@
         "Rank0": 57,
         "City 0": "Islip",
         "County0": "Suffolk County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1245,7 +1245,7 @@
         "Rank0": 91,
         "City 0": "Babylon",
         "County0": "Suffolk County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1264,7 +1264,7 @@
         "Rank0": 14,
         "City 0": "Hempstead",
         "County0": "Nassau County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1283,7 +1283,7 @@
         "Rank0": 40,
         "City 0": "Cleveland",
         "County0": "Cuyahoga County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -1302,7 +1302,7 @@
         "Rank0": 60,
         "City 0": "Cincinnati",
         "County0": "Hamilton County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1321,7 +1321,7 @@
         "Rank0": 94,
         "City 0": "Akron",
         "County0": "Summit County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1340,7 +1340,7 @@
         "Rank0": 61,
         "City 0": "Toledo",
         "County0": "Lucas County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1359,7 +1359,7 @@
         "Rank0": 16,
         "City 0": "Columbus",
         "County0": "Franklin County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1378,7 +1378,7 @@
         "Rank0": 47,
         "City 0": "Tulsa",
         "County0": "Tulsa County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -1397,7 +1397,7 @@
         "Rank0": 31,
         "City 0": "Oklahoma City",
         "County0": "Oklahoma County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1416,7 +1416,7 @@
         "Rank0": 30,
         "City 0": "Portland",
         "County0": "Multnomah County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1435,7 +1435,7 @@
         "Rank0": 59,
         "City 0": "Pittsburgh",
         "County0": "Allegheny County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1454,7 +1454,7 @@
         "Rank0": 5,
         "City 0": "Philadelphia",
         "County0": "Philadelphia County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1473,7 +1473,7 @@
         "Rank0": 18,
         "City 0": "Memphis",
         "County0": "Shelby County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1492,7 +1492,7 @@
         "Rank0": 96,
         "City 0": "Lubbock",
         "County0": "Lubbock County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1511,7 +1511,7 @@
         "Rank0": 73,
         "City 0": "Plano",
         "County0": "Collin County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1530,7 +1530,7 @@
         "Rank0": 90,
         "City 0": "Garland",
         "County0": "Dallas County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1549,7 +1549,7 @@
         "Rank0": 51,
         "City 0": "Arlington",
         "County0": "Tarrant County",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -1568,7 +1568,7 @@
         "Rank0": 20,
         "City 0": "Fort Worth",
         "County0": "Tarrant County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1587,7 +1587,7 @@
         "Rank0": 22,
         "City 0": "El Paso",
         "County0": "El Paso County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1606,7 +1606,7 @@
         "Rank0": 17,
         "City 0": "Austin",
         "County0": "Travis County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",
@@ -1625,7 +1625,7 @@
         "Rank0": 67,
         "City 0": "Corpus Christi",
         "County0": "Nueces County",
-        "marker-color": "#76bb00"
+        "marker-color": "#cce500"
       },
       "geometry": {
         "type": "Point",
@@ -1644,7 +1644,7 @@
         "Rank0": 97,
         "City 0": "Laredo",
         "County0": "Webb County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1663,7 +1663,7 @@
         "Rank0": 89,
         "City 0": "Chesapeake",
         "County0": "Chesapeake City",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1682,7 +1682,7 @@
         "Rank0": 81,
         "City 0": "Norfolk",
         "County0": "Norfolk City",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1701,7 +1701,7 @@
         "Rank0": 43,
         "City 0": "Virginia Beach",
         "County0": "Virginia Beach City",
-        "marker-color": "#b6da00"
+        "marker-color": "#ffcb00"
       },
       "geometry": {
         "type": "Point",
@@ -1720,7 +1720,7 @@
         "Rank0": 87,
         "City 0": "Madison",
         "County0": "Dane County",
-        "marker-color": "#52a900"
+        "marker-color": "#66b200"
       },
       "geometry": {
         "type": "Point",
@@ -1739,7 +1739,7 @@
         "Rank0": 23,
         "City 0": "Milwaukee",
         "County0": "Milwaukee County",
-        "marker-color": "#ff0000"
+        "marker-color": "#ff6500"
       },
       "geometry": {
         "type": "Point",

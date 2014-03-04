@@ -17,8 +17,9 @@
         "FIPS": "45045",
         "PovertyEst": "SC",
         "poverty": 71,
-        "fill": "#ff0000",
-        "stroke": "#000000"
+        "fill": "#df001f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -202,8 +203,9 @@
         "FIPS": "45083",
         "PovertyEst": "SC",
         "poverty": 53,
-        "fill": "#ff0000",
-        "stroke": "#000000"
+        "fill": "#df001f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -319,8 +321,9 @@
         "FIPS": "45021",
         "PovertyEst": "SC",
         "poverty": 12,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -440,8 +443,9 @@
         "FIPS": "45091",
         "PovertyEst": "SC",
         "poverty": 34,
-        "fill": "#880076",
-        "stroke": "#000000"
+        "fill": "#9f005f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -573,8 +577,9 @@
         "FIPS": "45077",
         "PovertyEst": "SC",
         "poverty": 22,
-        "fill": "#6f008f",
-        "stroke": "#000000"
+        "fill": "#7f007f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -726,8 +731,9 @@
         "FIPS": "45057",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -883,8 +889,9 @@
         "FIPS": "45073",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -1136,8 +1143,9 @@
         "FIPS": "45087",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -1293,8 +1301,9 @@
         "FIPS": "45023",
         "PovertyEst": "SC",
         "poverty": 9,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -1390,8 +1399,9 @@
         "FIPS": "45007",
         "PovertyEst": "SC",
         "poverty": 29,
-        "fill": "#6f008f",
-        "stroke": "#000000"
+        "fill": "#7f007f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -1499,8 +1509,9 @@
         "FIPS": "45025",
         "PovertyEst": "SC",
         "poverty": 11,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -1672,8 +1683,9 @@
         "FIPS": "45069",
         "PovertyEst": "SC",
         "poverty": 8,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -1833,8 +1845,9 @@
         "FIPS": "45059",
         "PovertyEst": "SC",
         "poverty": 14,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -1982,8 +1995,9 @@
         "FIPS": "45033",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -2083,8 +2097,9 @@
         "FIPS": "45055",
         "PovertyEst": "SC",
         "poverty": 11,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -2268,8 +2283,9 @@
         "FIPS": "45039",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -2369,8 +2385,9 @@
         "FIPS": "45031",
         "PovertyEst": "SC",
         "poverty": 15,
-        "fill": "#4f00af",
-        "stroke": "#000000"
+        "fill": "#5f009f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -2570,8 +2587,9 @@
         "FIPS": "45071",
         "PovertyEst": "SC",
         "poverty": 7,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -2755,8 +2773,9 @@
         "FIPS": "45001",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -2852,8 +2871,9 @@
         "FIPS": "45047",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -2973,8 +2993,9 @@
         "FIPS": "45061",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -3150,8 +3171,9 @@
         "FIPS": "45041",
         "PovertyEst": "SC",
         "poverty": 28,
-        "fill": "#6f008f",
-        "stroke": "#000000"
+        "fill": "#7f007f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -3375,8 +3397,9 @@
         "FIPS": "45051",
         "PovertyEst": "SC",
         "poverty": 51,
-        "fill": "#be0040",
-        "stroke": "#000000"
+        "fill": "#bf003f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -3544,8 +3567,9 @@
         "FIPS": "45067",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -3797,8 +3821,9 @@
         "FIPS": "45079",
         "PovertyEst": "SC",
         "poverty": 66,
-        "fill": "#ff0000",
-        "stroke": "#000000"
+        "fill": "#df001f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -4058,8 +4083,9 @@
         "FIPS": "45063",
         "PovertyEst": "SC",
         "poverty": 38,
-        "fill": "#be0040",
-        "stroke": "#000000"
+        "fill": "#bf003f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -4275,8 +4301,9 @@
         "FIPS": "45081",
         "PovertyEst": "SC",
         "poverty": 3,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -4380,8 +4407,9 @@
         "FIPS": "45085",
         "PovertyEst": "SC",
         "poverty": 18,
-        "fill": "#4f00af",
-        "stroke": "#000000"
+        "fill": "#5f009f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -4613,8 +4641,9 @@
         "FIPS": "45065",
         "PovertyEst": "SC",
         "poverty": 1,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -4830,8 +4859,9 @@
         "FIPS": "45037",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -4963,8 +4993,9 @@
         "FIPS": "45027",
         "PovertyEst": "SC",
         "poverty": 7,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -5152,8 +5183,9 @@
         "FIPS": "45089",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -5373,8 +5405,9 @@
         "FIPS": "45017",
         "PovertyEst": "SC",
         "poverty": 3,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -5638,8 +5671,9 @@
         "FIPS": "45003",
         "PovertyEst": "SC",
         "poverty": 31,
-        "fill": "#880076",
-        "stroke": "#000000"
+        "fill": "#9f005f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -5815,8 +5849,9 @@
         "FIPS": "45043",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -6028,8 +6063,9 @@
         "FIPS": "45075",
         "PovertyEst": "SC",
         "poverty": 21,
-        "fill": "#4f00af",
-        "stroke": "#000000"
+        "fill": "#5f009f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -6273,8 +6309,9 @@
         "FIPS": "45015",
         "PovertyEst": "SC",
         "poverty": 27,
-        "fill": "#6f008f",
-        "stroke": "#000000"
+        "fill": "#7f007f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -6530,8 +6567,9 @@
         "FIPS": "45011",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -6619,8 +6657,9 @@
         "FIPS": "45009",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -6720,8 +6759,9 @@
         "FIPS": "45035",
         "PovertyEst": "SC",
         "poverty": 17,
-        "fill": "#4f00af",
-        "stroke": "#000000"
+        "fill": "#5f009f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -6893,8 +6933,9 @@
         "FIPS": "45029",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#3500c9",
-        "stroke": "#000000"
+        "fill": "#3f00bf",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -7134,8 +7175,9 @@
         "FIPS": "45005",
         "PovertyEst": "SC",
         "poverty": 3,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -7295,8 +7337,9 @@
         "FIPS": "45049",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -7440,8 +7483,9 @@
         "FIPS": "45019",
         "PovertyEst": "SC",
         "poverty": 66,
-        "fill": "#ff0000",
-        "stroke": "#000000"
+        "fill": "#df001f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7675,8 +7719,9 @@
         "FIPS": "45053",
         "PovertyEst": "SC",
         "poverty": 6,
-        "fill": "#1c00e2",
-        "stroke": "#000000"
+        "fill": "#1f00df",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "Polygon",
@@ -7888,8 +7933,9 @@
         "FIPS": "45013",
         "PovertyEst": "SC",
         "poverty": 20,
-        "fill": "#4f00af",
-        "stroke": "#000000"
+        "fill": "#5f009f",
+        "stroke": "#000000",
+        "fill-opacity": 0.8
       },
       "geometry": {
         "type": "MultiPolygon",

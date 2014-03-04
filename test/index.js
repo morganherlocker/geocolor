@@ -27,7 +27,7 @@ describe('geocolor', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/cities.geojson'))
     geo.features[0].should.be.ok
 
-    geo = geocolor.equalIntervals(geo, 'Population', 'interval', 5, ['green', 'yellow', 'red'])
+    geo = geocolor.equalIntervals(geo, 'Population', 5, ['green', 'yellow', 'red'])
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features[0].properties['marker-color'].should.be.ok
