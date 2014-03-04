@@ -40,7 +40,7 @@ var z = 'Population',
 geo = geocolor(cities, z, classification, numberOfBreaks, colors)
 
 // properties now contains style info with encoded colors
-console.log(geo) 
+console.log(geo)
 ```
 
 ##Dev
