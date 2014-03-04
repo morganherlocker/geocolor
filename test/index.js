@@ -7,7 +7,7 @@ describe('geocolor', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/cities.geojson'))
     geo.features[0].should.be.ok
 
-    geo = geocolor(geo, 'Population', 'jenks', 3, ['green', 'yellow', 'red'])
+    geo = geocolor.jenks(geo, 'Population', 3, ['green', 'yellow', 'red'])
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features[0].properties['marker-color'].should.be.ok
@@ -17,7 +17,7 @@ describe('geocolor', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/cities.geojson'))
     geo.features[0].should.be.ok
 
-    geo = geocolor(geo, 'Population', 'quantile', 4, ['green', 'yellow', 'red'])
+    geo = geocolor.quantiles(geo, 'Population', 4, ['green', 'yellow', 'red'])
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features[0].properties['marker-color'].should.be.ok
@@ -27,7 +27,7 @@ describe('geocolor', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/cities.geojson'))
     geo.features[0].should.be.ok
 
-    geo = geocolor(geo, 'Population', 'interval', 5, ['green', 'yellow', 'red'])
+    geo = geocolor.equalIntervals(geo, 'Population', 'interval', 5, ['green', 'yellow', 'red'])
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features[0].properties['marker-color'].should.be.ok
@@ -57,7 +57,7 @@ describe('geocolor', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/sc.geojson'))
     geo.features[0].should.be.ok
 
-    geo = geocolor(geo, 'poverty', 'quantile', 7, ['blue', 'red'])
+    geo = geocolor.jenks(geo, 'poverty', 7, ['blue', 'red'])
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features[0].properties['fill'].should.be.ok
