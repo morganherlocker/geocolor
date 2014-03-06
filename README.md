@@ -56,6 +56,10 @@ console.log(geoEqualIntervals)
 // custom breaks
 geoCustom = geocolor.custom(cities, z, [0,200000,300000,400000,500000,800000,1000000,1000000000], colors)
 console.log(geoCustom)
+
+// random colors
+geoRandom = geocolor.random(geo, ['green', 'yellow', 'red', 'blue', 'purple', 'orange', 'pink'])
+console.log(geoRandom)
 ```
 
 ##Dev
