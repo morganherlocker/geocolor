@@ -98,15 +98,15 @@ describe('geocolor', function(){
     geo.features[0].should.be.ok
 
     var style = {
-      stroke: 'white',
-      fill-opacity: '.4'
+      'stroke': 'white',
+      'fill-opacity': .4
     }
     geo = geocolor.random(geo, ['green', 'red'], style)
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features[0].properties['fill'].should.be.ok
-    geo.features[0].properties['fill-opacity'].should.be.ok
-    geo.features[0].properties['stroke'].should.be.ok
+    geo.features[0].properties['fill-opacity'].should.equal(.4)
+    geo.features[0].properties['stroke'].should.equal('#ffffff')
     fs.writeFileSync(__dirname+'/out/styled11.geojson', JSON.stringify(geo, null, 2))
   })
 })
