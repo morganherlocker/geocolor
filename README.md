@@ -62,6 +62,29 @@ geoRandom = geocolor.random(geo, ['green', 'yellow', 'red', 'blue', 'purple', 'o
 console.log(geoRandom)
 ```
 
+You can also pass in a custom style object that will applied to all features as an optional parameter. The following will perform a quantile white to red ramp, will set the stroke to blue, and will set the fill opacity to .4.
+
+```js
+var geocolor = require('geocolor')
+
+var cities = {
+  // [point data](https://github.com/morganherlocker/geocolor/blob/master/test/in/cities.geojson)
+}
+
+var z = 'Population',
+    numberOfBreaks = 15,
+    colors = ['white', 'red']
+
+var style = {
+  'stroke': 'blue',
+  'fill-opacity': .4
+}
+
+// quantiles
+geoQuantiles = geocolor.quantiles(cities, z, numberOfBreaks, colors, style)
+console.log(geoQuantiles)
+```
+
 ##Dev
 
 Running tests:
