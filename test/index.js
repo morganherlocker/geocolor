@@ -93,4 +93,20 @@ describe('geocolor', function(){
     geo.features[0].properties['fill'].should.be.ok
     fs.writeFileSync(__dirname+'/out/styled10.geojson', JSON.stringify(geo, null, 2))
   })
+  it('should take a set of polygons and assign random colors with a custom opacity and stroke, then output geojson with color styles', function(){
+    var geo = JSON.parse(fs.readFileSync(__dirname+'/in/sc.geojson'))
+    geo.features[0].should.be.ok
+
+    var style = {
+      'stroke': 'white',
+      'fill-opacity': .4
+    }
+    geo = geocolor.random(geo, ['green', 'red'], style)
+    geo.should.be.ok
+    geo.features.should.be.ok
+    geo.features[0].properties['fill'].should.be.ok
+    geo.features[0].properties['fill-opacity'].should.equal(.4)
+    geo.features[0].properties['stroke'].should.equal('#ffffff')
+    fs.writeFileSync(__dirname+'/out/styled11.geojson', JSON.stringify(geo, null, 2))
+  })
 })
