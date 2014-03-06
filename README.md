@@ -68,6 +68,8 @@ npm test
 
 ##More Examples
 
+![rivers](https://raw.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-03-04%20at%209.51.10%20PM.jpg)
+
 ![choloropleth](http://morganherlocker.com/img/poverty_styled.jpg)
 
 ![gradient](https://raw.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-02-06%20at%203.13.09%20PM.jpg)
