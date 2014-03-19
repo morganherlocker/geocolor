@@ -25,6 +25,8 @@ Curently supported classifications:
 - quantiles
 - jenks
 - custom
+- random
+- all
 
 ##Example
 
