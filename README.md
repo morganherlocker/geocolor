@@ -60,9 +60,18 @@ console.log(geoCustom)
 // random colors
 geoRandom = geocolor.random(geo, ['green', 'yellow', 'red', 'blue', 'purple', 'orange', 'pink'])
 console.log(geoRandom)
+
+// all (assigns the same style to all features)
+var style = {
+  'stroke': 'blue',
+  'fill-opacity': .7,
+  'fill': 'green'
+}
+geoAll = geocolor.all(geo, style)
+console.log(geoRandom)
 ```
 
-You can also pass in a custom style object that will applied to all features as an optional parameter. The following will perform a quantile white to red ramp, will set the stroke to blue, and will set the fill opacity to .4.
+You can also pass in a custom style object to any of the functions that will applied to all features as an optional parameter. The following will perform a quantile white to red ramp, will set the stroke to blue, and will set the fill opacity to .4.
 
 ```js
 var geocolor = require('geocolor')
