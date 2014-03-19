@@ -17,7 +17,7 @@
         "FIPS": "45045",
         "PovertyEst": "SC",
         "poverty": 71,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -203,7 +203,7 @@
         "FIPS": "45083",
         "PovertyEst": "SC",
         "poverty": 53,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -321,7 +321,7 @@
         "FIPS": "45021",
         "PovertyEst": "SC",
         "poverty": 12,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -577,7 +577,7 @@
         "FIPS": "45077",
         "PovertyEst": "SC",
         "poverty": 22,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -1683,7 +1683,7 @@
         "FIPS": "45069",
         "PovertyEst": "SC",
         "poverty": 8,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -1845,7 +1845,7 @@
         "FIPS": "45059",
         "PovertyEst": "SC",
         "poverty": 14,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2097,7 +2097,7 @@
         "FIPS": "45055",
         "PovertyEst": "SC",
         "poverty": 11,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2283,7 +2283,7 @@
         "FIPS": "45039",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2773,7 +2773,7 @@
         "FIPS": "45001",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2871,7 +2871,7 @@
         "FIPS": "45047",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -3567,7 +3567,7 @@
         "FIPS": "45067",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -4083,7 +4083,7 @@
         "FIPS": "45063",
         "PovertyEst": "SC",
         "poverty": 38,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -4301,7 +4301,7 @@
         "FIPS": "45081",
         "PovertyEst": "SC",
         "poverty": 3,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -4407,7 +4407,7 @@
         "FIPS": "45085",
         "PovertyEst": "SC",
         "poverty": 18,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -4641,7 +4641,7 @@
         "FIPS": "45065",
         "PovertyEst": "SC",
         "poverty": 1,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -4859,7 +4859,7 @@
         "FIPS": "45037",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -5183,7 +5183,7 @@
         "FIPS": "45089",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -6567,7 +6567,7 @@
         "FIPS": "45011",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -7175,7 +7175,7 @@
         "FIPS": "45005",
         "PovertyEst": "SC",
         "poverty": 3,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -7337,7 +7337,7 @@
         "FIPS": "45049",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -7483,7 +7483,7 @@
         "FIPS": "45019",
         "PovertyEst": "SC",
         "poverty": 66,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
