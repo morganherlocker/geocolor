@@ -321,7 +321,7 @@
         "FIPS": "45021",
         "PovertyEst": "SC",
         "poverty": 12,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -577,7 +577,7 @@
         "FIPS": "45077",
         "PovertyEst": "SC",
         "poverty": 22,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -1301,7 +1301,7 @@
         "FIPS": "45023",
         "PovertyEst": "SC",
         "poverty": 9,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2097,7 +2097,7 @@
         "FIPS": "45055",
         "PovertyEst": "SC",
         "poverty": 11,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2385,7 +2385,7 @@
         "FIPS": "45031",
         "PovertyEst": "SC",
         "poverty": 15,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2587,7 +2587,7 @@
         "FIPS": "45071",
         "PovertyEst": "SC",
         "poverty": 7,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2871,7 +2871,7 @@
         "FIPS": "45047",
         "PovertyEst": "SC",
         "poverty": 13,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -2993,7 +2993,7 @@
         "FIPS": "45061",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -3567,7 +3567,7 @@
         "FIPS": "45067",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -4641,7 +4641,7 @@
         "FIPS": "45065",
         "PovertyEst": "SC",
         "poverty": 1,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -4859,7 +4859,7 @@
         "FIPS": "45037",
         "PovertyEst": "SC",
         "poverty": 4,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -5183,7 +5183,7 @@
         "FIPS": "45089",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -6567,7 +6567,7 @@
         "FIPS": "45011",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -6933,7 +6933,7 @@
         "FIPS": "45029",
         "PovertyEst": "SC",
         "poverty": 10,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -7337,7 +7337,7 @@
         "FIPS": "45049",
         "PovertyEst": "SC",
         "poverty": 5,
-        "fill": "#008000",
+        "fill": "#ff0000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -7483,7 +7483,7 @@
         "FIPS": "45019",
         "PovertyEst": "SC",
         "poverty": 66,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
@@ -7719,7 +7719,7 @@
         "FIPS": "45053",
         "PovertyEst": "SC",
         "poverty": 6,
-        "fill": "#ff0000",
+        "fill": "#008000",
         "stroke": "#ffffff",
         "fill-opacity": 0.4
       },
