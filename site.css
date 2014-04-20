@@ -1,0 +1,20 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, sans-serif;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 30%;
+}
+#controlContainer {
+    float: right;
+
+}
+#controls {
+    float:left;
+    min-width: 360px
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Geocolor</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+    <link href='site.css' rel='stylesheet' />
+</head>
+
+<body>
+    <div id='controlContainer'>
+        <div id='controls'>
+            <p>Geocolor
+
+            <br>
+            <select>
+                <option>All</option>
+                <option>Jenks</option>
+                <option>Quantiles</option>
+                <option>Equal Interval</option>
+                <option>Random</option>
+            </select>
+
+            <br>
+        </div>
+    </div>
+
+    <div id='map'></div>
+    <script>
+    var geojson = [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.03238901390978, 38.913188059745586]
+        },
+        "properties": {
+            "title": "Mapbox DC",
+            "description": "1714 14th St NW, Washington DC",
+            "marker-color": "#fc4353",
+            "marker-size": "large",
+            "marker-symbol": "monument"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-122.414, 37.776]
+        },
+        "properties": {
+            "title": "Mapbox SF",
+            "description": "155 9th St, San Francisco",
+            "marker-color": "#fc4353",
+            "marker-size": "large",
+            "marker-symbol": "harbor"
+        }
+    }];
+
+    L.mapbox.map('map', 'examples.map-20v6611k')
+        .setView([37.8, -96], 4)
+        .featureLayer.setGeoJSON(geojson);
+    </script>
+</body>
+</html>
