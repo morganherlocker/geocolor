@@ -11,6 +11,9 @@
     <script src='js/site.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
     <link href='site.css' rel='stylesheet' />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -18,6 +21,9 @@
         <div id='controls'>
             <p>Geocolor
 
+            <br>
+            <label> Z </label>
+            <input id='jenks' type='text'></input>
             <br>
             <select>
                 <option>All</option>
@@ -27,7 +33,48 @@
                 <option>Random</option>
             </select>
 
-            <br>
+            <div id='jenksControls'>
+                <label>Number of breaks</label>
+                <input type='number' min='1' value='5'>
+                <br>
+                <select>
+                    <option>white</option>
+                    <option>red</option>
+                    <option>blue</option>
+                    <option>green</option>
+                    <option>black</option>
+                    <option>orange</option>
+                    <option>purple</option>
+                    <option>yellow</option>
+                </select>
+                <br>
+                <select>
+                    <option>--</option>
+                    <option>white</option>
+                    <option>red</option>
+                    <option>blue</option>
+                    <option>green</option>
+                    <option>black</option>
+                    <option>orange</option>
+                    <option>purple</option>
+                    <option>yellow</option>
+                </select>
+                <br>
+                <select>
+                    <option>red</option>
+                    <option>white</option>
+                    <option>blue</option>
+                    <option>green</option>
+                    <option>black</option>
+                    <option>orange</option>
+                    <option>purple</option>
+                    <option>yellow</option>
+                </select>
+            </div>
+
+            <div id='quantilesControls'>
+                quantiles controls
+            </div>
         </div>
     </div>
 
