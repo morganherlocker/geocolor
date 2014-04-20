@@ -18,3 +18,10 @@ body {
     float:left;
     min-width: 360px
 }
+
+#dropFile{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 10000000;
+}

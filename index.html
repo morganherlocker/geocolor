@@ -4,7 +4,6 @@
 <head>
     <meta charset=utf-8 />
     <title>Geocolor</title>
-
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
@@ -14,10 +13,10 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="js/dropzone.js"></script>
 </head>
 
 <body>
+    <input id='dropFile' type='file' hidden>
     <div id='controlContainer'>
         <div id='controls'>
             <p>Geocolor
@@ -265,5 +264,6 @@
         .setView([37.8, -96], 4)
         .featureLayer.setGeoJSON(geojson);
     </script>
+    </input>
 </body>
 </html>

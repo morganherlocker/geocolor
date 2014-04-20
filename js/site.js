@@ -1,7 +1,12 @@
 $(function(){
   $('#classification').change(function(){
-    var classification = $('#classification').val()
+    // Upload File
+    $('#dropFile').on('change', function(){
+      alert('got it!')
+    })
 
+    // Select Classification Options
+    var classification = $('#classification').val()
     if(classification === 'Jenks'){
       $('#jenksControls').show()
       $('#quantilesControls').hide()
