@@ -13,15 +13,13 @@ body {
 #controlContainer {
     float: right;
     padding-top:10px;
+
 }
 #controls {
     float:left;
-    min-width: 360px
+    min-width: 330px
 }
 
 #dropFile{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	z-index: 10000000;
+
 }

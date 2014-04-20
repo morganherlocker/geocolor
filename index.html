@@ -10,18 +10,18 @@
     <script src='js/site.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
     <link href='site.css' rel='stylesheet' />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <input id='dropFile' type='file' hidden>
     <div id='controlContainer'>
         <div id='controls'>
             <b>Geocolor</b>
 
             <br><br>
+            <label> Geojson File </label><br>
+            <input id='dropFile' type='file'></input>
+            <br>
             <label> Z Field </label><br>
             <input id='jenks' type='text' placeholder='population'></input>
             <br>
@@ -265,12 +265,7 @@
 
     <div id='map'></div>
     <script>
-    var geojson = [];
 
-    L.mapbox.map('map', 'examples.map-20v6611k')
-        .setView([37.8, -96], 4)
-        .featureLayer.setGeoJSON(geojson);
     </script>
-    </input>
 </body>
 </html>

@@ -1,7 +1,16 @@
+var geojson = []
 $(function(){
   // Upload File
-  $('#dropFile').on('change', function(){
-    alert('got it!')
+  $('#dropFile').on('change', function(evt){
+    console.log(evt)
+    var reader = new FileReader();
+    reader.readAsText(evt.currentTarget.files[0]);
+    reader.onload = function(e) {
+      geojson = [JSON.parse(e.target.result)]
+      L.mapbox.map('map', 'examples.map-20v6611k')
+        .setView([37.8, -96], 4)
+        .featureLayer.setGeoJSON(geojson);
+    }
   })
 
   // Select Classification Options
