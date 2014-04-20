@@ -1,11 +1,11 @@
 $(function(){
-  $('#classification').change(function(){
-    // Upload File
-    $('#dropFile').on('change', function(){
-      alert('got it!')
-    })
+  // Upload File
+  $('#dropFile').on('change',function(){
+    alert('got it!')
+  })
 
-    // Select Classification Options
+  // Select Classification Options
+  $('#classification').change(function(){
     var classification = $('#classification').val()
     if(classification === 'Jenks'){
       $('#jenksControls').show()
