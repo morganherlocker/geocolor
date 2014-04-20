@@ -1,6 +1,6 @@
 $(function(){
   // Upload File
-  $('#dropFile').on('change',function(){
+  $('#dropFile').on('change', function(){
     alert('got it!')
   })
 

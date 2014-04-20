@@ -12,7 +12,7 @@ body {
 }
 #controlContainer {
     float: right;
-
+    padding-top:10px;
 }
 #controls {
     float:left;

@@ -19,12 +19,13 @@
     <input id='dropFile' type='file' hidden>
     <div id='controlContainer'>
         <div id='controls'>
-            <p>Geocolor
+            <b>Geocolor</b>
 
+            <br><br>
+            <label> Z Field </label><br>
+            <input id='jenks' type='text' placeholder='population'></input>
             <br>
-            <label> Z </label>
-            <input id='jenks' type='text'></input>
-            <br>
+            <label>Classification</label><br>
             <select id='classification'>
                 <option>--</option>
                 <option>Jenks</option>
@@ -35,9 +36,10 @@
             </select>
 
             <div id='jenksControls' hidden>
-                <label># breaks</label>
+                <label># breaks</label><br>
                 <input type='number' min='1' value='5'>
                 <br>
+                <label>Colors</label><br>
                 <select>
                     <option>white</option>
                     <option>red</option>
@@ -74,9 +76,10 @@
             </div>
 
             <div id='quantilesControls' hidden>
-                <label># breaks</label>
+                <label># breaks</label><br>
                 <input type='number' min='1' value='5'>
                 <br>
+                <label>Colors</label><br>
                 <select>
                     <option>white</option>
                     <option>red</option>
@@ -113,9 +116,10 @@
             </div>
 
             <div id='equalIntervalsControls' hidden>
-                <label># breaks</label>
+                <label># breaks</label><br>
                 <input type='number' min='1' value='5'></input>
                 <br>
+                <label>Colors</label><br>
                 <select>
                     <option>white</option>
                     <option>red</option>
@@ -152,9 +156,10 @@
             </div>
 
             <div id='customControls' hidden>
-                <label># breaks</label>
+                <label># breaks</label><br>
                 <input type='text'></input>
                 <br>
+                <label>Colors</label><br>
                 <select>
                     <option>white</option>
                     <option>red</option>
@@ -191,6 +196,7 @@
             </div>
 
             <div id='randomControls' hidden>
+                <label>Colors</label><br>
                 <select>
                     <option>green</option>
                     <option>white</option>
@@ -248,6 +254,7 @@
             </div>
 
             <div>
+                <label>Styles</label><br>
                 <textarea id='styles' rows='10' cols='40'></textarea>
             </div>
             <div>
