@@ -26,14 +26,14 @@
             <input id='jenks' type='text'></input>
             <br>
             <select>
-                <option>All</option>
                 <option>Jenks</option>
                 <option>Quantiles</option>
                 <option>Equal Interval</option>
                 <option>Random</option>
+                <option>All</option>
             </select>
 
-            <div id='jenksControls'>
+            <div id='jenksControls' >
                 <label>Number of breaks</label>
                 <input type='number' min='1' value='5'>
                 <br>
@@ -72,7 +72,7 @@
                 </select>
             </div>
 
-            <div id='quantilesControls'>
+            <div id='quantilesControls' hidden>
                 <label>Number of breaks</label>
                 <input type='number' min='1' value='5'>
                 <br>
@@ -111,7 +111,7 @@
                 </select>
             </div>
 
-            <div id='equalIntervalsControls'>
+            <div id='equalIntervalsControls' hidden>
                 <label>Number of breaks</label>
                 <input type='number' min='1' value='5'>
                 <br>
@@ -150,7 +150,7 @@
                 </select>
             </div>
 
-            <div id='customControls'>
+            <div id='customControls' hidden>
                 <label>Number of breaks</label>
                 <input type='text'></input>
                 <br>
@@ -189,7 +189,7 @@
                 </select>
             </div>
 
-            <div id='randomControls'>
+            <div id='randomControls' hidden>
                 <select>
                     <option>green</option>
                     <option>white</option>
@@ -250,33 +250,7 @@
 
     <div id='map'></div>
     <script>
-    var geojson = [{
-        "type": "Feature",
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-77.03238901390978, 38.913188059745586]
-        },
-        "properties": {
-            "title": "Mapbox DC",
-            "description": "1714 14th St NW, Washington DC",
-            "marker-color": "#fc4353",
-            "marker-size": "large",
-            "marker-symbol": "monument"
-        }
-    }, {
-        "type": "Feature",
-        "geometry": {
-            "type": "Point",
-            "coordinates": [-122.414, 37.776]
-        },
-        "properties": {
-            "title": "Mapbox SF",
-            "description": "155 9th St, San Francisco",
-            "marker-color": "#fc4353",
-            "marker-size": "large",
-            "marker-symbol": "harbor"
-        }
-    }];
+    var geojson = [];
 
     L.mapbox.map('map', 'examples.map-20v6611k')
         .setView([37.8, -96], 4)
