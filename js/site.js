@@ -1,4 +1,4 @@
-var geojson = []
+var geojson = {}
 $(function(){
 
   // Upload File
@@ -44,6 +44,28 @@ $(function(){
       $('#quantilesControls').hide()
       $('#equalIntervalsControls').hide()
       $('#randomControls').hide()
+    }
+  })
+
+  // Colorize Features
+  $('#colorize').click(function(){
+    var classification = $('#classification').val()
+    var styles = JSON.parse($('#styles').val())
+    if(classification === 'Jenks'){
+      map.featureLayer.setGeoJSON(geojson);
+    }
+    else if(classification === 'Quantiles'){
+      map.featureLayer.setGeoJSON(geojson);
+    }
+    else if(classification === 'Equal Interval'){
+      map.featureLayer.setGeoJSON(geojson);
+    }
+    else if(classification === 'Random'){
+      map.featureLayer.setGeoJSON(geojson);
+    }
+    else if(classification === 'All'){
+      geojson = geocolor.all(geojson, styles)
+      map.featureLayer.setGeoJSON(geojson);
     }
   })
 })
