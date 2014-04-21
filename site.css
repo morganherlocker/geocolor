@@ -18,6 +18,7 @@ body {
 }
 #controlContainer {
     float: right;
+    padding-bottom: 30px;
 }
 #controls {
     float:left;
