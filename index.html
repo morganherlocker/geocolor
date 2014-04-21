@@ -8,7 +8,7 @@
     <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src='js/site.js'></script>
-    <script src='geocolor.min.js'></script>
+    <script src='geocolor.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
     <link href='site.css' rel='stylesheet' />
 
@@ -24,7 +24,7 @@
             <input id='dropFile' type='file'></input>
             <br>
             <label> Z Field </label><br>
-            <input id='jenks' type='text' placeholder='population'></input>
+            <input id='jenksZ' type='text' placeholder='population'></input>
             <br>
             <label>Classification</label><br>
             <select id='classification'>
@@ -37,10 +37,10 @@
 
             <div id='jenksControls' hidden>
                 <label># breaks</label><br>
-                <input type='number' min='1' value='5'>
+                <input id='jenksNumBreaks' type='number' min='1' value='5'>
                 <br>
                 <label>Colors</label><br>
-                <select>
+                <select id='jenksColor1'>
                     <option>white</option>
                     <option>red</option>
                     <option>blue</option>
@@ -51,7 +51,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='jenksColor2'>
                     <option>--</option>
                     <option>white</option>
                     <option>red</option>
@@ -63,7 +63,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='jenksColor3'>
                     <option>red</option>
                     <option>white</option>
                     <option>blue</option>
@@ -77,10 +77,10 @@
 
             <div id='quantilesControls' hidden>
                 <label># breaks</label><br>
-                <input type='number' min='1' value='5'>
+                <input id='quantilesNumBreaks' type='number' min='1' value='5'>
                 <br>
                 <label>Colors</label><br>
-                <select>
+                <select id='quantilesColor1'>
                     <option>white</option>
                     <option>red</option>
                     <option>blue</option>
@@ -91,7 +91,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='quantilesColor2'>
                     <option>--</option>
                     <option>white</option>
                     <option>red</option>
@@ -103,7 +103,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='quantilesColor3'>
                     <option>red</option>
                     <option>white</option>
                     <option>blue</option>
@@ -117,10 +117,10 @@
 
             <div id='equalIntervalsControls' hidden>
                 <label># breaks</label><br>
-                <input type='number' min='1' value='5'></input>
+                <input id='equalIntervalsNumBreaks' type='number' min='1' value='5'></input>
                 <br>
                 <label>Colors</label><br>
-                <select>
+                <select id='equalIntervalsColor1'>
                     <option>white</option>
                     <option>red</option>
                     <option>blue</option>
@@ -131,7 +131,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='equalIntervalsColor2'>
                     <option>--</option>
                     <option>white</option>
                     <option>red</option>
@@ -143,7 +143,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='equalIntervalsColor3'>
                     <option>red</option>
                     <option>white</option>
                     <option>blue</option>
@@ -160,7 +160,7 @@
                 <input type='text'></input>
                 <br>
                 <label>Colors</label><br>
-                <select>
+                <select id='customColor1'>
                     <option>white</option>
                     <option>red</option>
                     <option>blue</option>
@@ -171,7 +171,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='customColor2'>
                     <option>--</option>
                     <option>white</option>
                     <option>red</option>
@@ -183,7 +183,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='customColor3'>
                     <option>red</option>
                     <option>white</option>
                     <option>blue</option>
@@ -197,7 +197,7 @@
 
             <div id='randomControls' hidden>
                 <label>Colors</label><br>
-                <select>
+                <select id='randomColor1'>
                     <option>green</option>
                     <option>white</option>
                     <option>red</option>
@@ -208,7 +208,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='randomColor2'>
                     <option>blue</option>
                     <option>white</option>
                     <option>red</option>
@@ -219,7 +219,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='randomColor3'>
                     <option>orange</option>
                     <option>red</option>
                     <option>white</option>
@@ -230,7 +230,7 @@
                     <option>yellow</option>
                 </select>
                 <br>
-                <select>
+                <select id='randomColor4'>
                     <option>yellow</option>
                     <option>red</option>
                     <option>white</option>
@@ -241,7 +241,7 @@
                     <option>purple</option>
                 </select>
                 <br>
-                <select>
+                <select id='randomColor5'>
                     <option>purple</option>
                     <option>red</option>
                     <option>white</option>
@@ -255,7 +255,7 @@
 
             <div>
                 <label>Styles</label><br>
-                <textarea id='styles' rows='10' cols='40'></textarea>
+                <textarea id='styles' rows='10' cols='40'>{}</textarea>
             </div>
             <div>
                 <button id='colorize'>colorize</button>

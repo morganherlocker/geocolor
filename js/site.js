@@ -50,14 +50,29 @@ $(function(){
   // Colorize Features
   $('#colorize').click(function(){
     var classification = $('#classification').val()
+    var z = $('#jenksZ').val()
     var styles = JSON.parse($('#styles').val())
+    var colors = []
+
     if(classification === 'Jenks'){
+      colors.push($('#jenksColor1 option:selected').text())
+      if(!($('#jenksColor2 option:selected').text() === '--')){
+        colors.push($('#jenksColor2 option:selected').text())
+      }
+      colors.push($('#jenksColor3 option:selected').text())
+      var numBreaks = parseFloat($('#jenksNumBreaks').val())
+
+      geojson = geocolor.jenks(geojson, z, numBreaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Quantiles'){
+      var numBreaks = $('#quantilesNumBreaks').val()
+      geojson = geocolor.quantiles(geojson, numBreaks, styles)
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Equal Interval'){
+      var numBreaks = $('#equalIntervalsNumBreaks').val()
+      geojson = geocolor.equalIntervals(geojson, numBreaks, styles)
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Random'){
