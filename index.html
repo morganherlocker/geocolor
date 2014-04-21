@@ -24,7 +24,7 @@
 <body>
     <div id='controlContainer'>
         <div id='controls'>
-            <h1><img id='logo' src='img/geocolor-no-text.jpg'>Geocolor</h1>
+            <h3><img id='logo' src='img/geocolor-no-text.jpg'>Geocolor</h3><hr>
 
             <label> Geojson File </label><br>
             <input id='dropFile' type='file' class='form-control'></input>
@@ -44,6 +44,7 @@
             <div id='jenksControls' hidden>
                 <label> Z Field </label><br>
                 <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
+                <br>
                 <label># Breaks</label><br>
                 <input id='jenksNumBreaks' type='number' min='1' value='5' class='form-control'>
                 <br>
@@ -81,11 +82,13 @@
                     <option>purple</option>
                     <option>yellow</option>
                 </select>
+                <br>
             </div>
 
             <div id='quantilesControls' hidden>
                 <label> Z Field </label><br>
-                <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
+                <input id='quantilesZ' type='text' placeholder='population' class='form-control'></input>
+                <br>
                 <label># Breaks</label><br>
                 <input id='quantilesNumBreaks' type='number' min='1' value='5' class='form-control'>
                 <br>
@@ -123,11 +126,13 @@
                     <option>purple</option>
                     <option>yellow</option>
                 </select>
+                <br>
             </div>
 
             <div id='equalIntervalsControls' hidden>
                 <label> Z Field </label><br>
-                <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
+                <input id='equalIntervalsZ' type='text' placeholder='population' class='form-control'></input>
+                <br>
                 <label># Breaks</label><br>
                 <input id='equalIntervalsNumBreaks' type='number' min='1' value='5' class='form-control'></input>
                 <br>
@@ -165,11 +170,13 @@
                     <option>purple</option>
                     <option>yellow</option>
                 </select>
+                <br>
             </div>
 
             <div id='customControls' hidden>
                 <label> Z Field </label><br>
-                <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
+                <input id='customZ' type='text' placeholder='population' class='form-control'></input>
+                <br>
                 <label>Breaks</label><br>
                 <input id='customBreaks' type='text' placeholder='10, 100, 300, 500, 1000' class='form-control'></input>
                 <br>
@@ -207,6 +214,7 @@
                     <option>purple</option>
                     <option>yellow</option>
                 </select>
+                <br>
             </div>
 
             <div id='randomControls' hidden>
@@ -270,9 +278,10 @@
                     <option>yellow</option>
                     <option>--</option>
                 </select>
+                <br>
             </div>
 
-            <br>
+            
             <div>
                 <label>Styles</label><br>
                 <textarea id='styles' rows='4' cols='40' class='form-control'>{&#013  &#013}</textarea>
