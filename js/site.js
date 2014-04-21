@@ -20,26 +20,38 @@ $(function(){
       $('#quantilesControls').hide()
       $('#equalIntervalsControls').hide()
       $('#randomControls').hide()
+      $('#customControls').hide()
     }
     else if(classification === 'Quantiles'){
       $('#quantilesControls').show()
       $('#jenksControls').hide()
       $('#equalIntervalsControls').hide()
       $('#randomControls').hide()
+      $('#customControls').hide()
     }
     else if(classification === 'Equal Interval'){
       $('#equalIntervalsControls').show()
       $('#jenksControls').hide()
       $('#quantilesControls').hide()
       $('#randomControls').hide()
+      $('#customControls').hide()
     }
     else if(classification === 'Random'){
       $('#randomControls').show()
       $('#jenksControls').hide()
       $('#quantilesControls').hide()
       $('#equalIntervalsControls').hide()
+      $('#customControls').hide()
     }
     else if(classification === 'All'){
+      $('#jenksControls').hide()
+      $('#quantilesControls').hide()
+      $('#equalIntervalsControls').hide()
+      $('#randomControls').hide()
+      $('#customControls').hide()
+    }
+    else if(classification === 'Custom'){
+      $('#customControls').show()
       $('#jenksControls').hide()
       $('#quantilesControls').hide()
       $('#equalIntervalsControls').hide()
@@ -66,20 +78,60 @@ $(function(){
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Quantiles'){
-      var numBreaks = $('#quantilesNumBreaks').val()
-      geojson = geocolor.quantiles(geojson, numBreaks, styles)
+      colors.push($('#quantilesColor1 option:selected').text())
+      if(!($('#quantilesColor2 option:selected').text() === '--')){
+        colors.push($('#quantilesColor2 option:selected').text())
+      }
+      colors.push($('#quantilesColor3 option:selected').text())
+      var numBreaks = parseFloat($('#quantilesNumBreaks').val())
+
+      geojson = geocolor.quantiles(geojson, z, numBreaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Equal Interval'){
-      var numBreaks = $('#equalIntervalsNumBreaks').val()
-      geojson = geocolor.equalIntervals(geojson, numBreaks, styles)
+      colors.push($('#equalIntervalsColor1 option:selected').text())
+      if(!($('#equalIntervalsColor2 option:selected').text() === '--')){
+        colors.push($('#equalIntervalsColor2 option:selected').text())
+      }
+      colors.push($('#equalIntervalsColor3 option:selected').text())
+      var numBreaks = parseFloat($('#equalIntervalsNumBreaks').val())
+
+      geojson = geocolor.equalIntervals(geojson, z, numBreaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Random'){
+      if(!($('#randomColor1 option:selected').text() === '--')){
+        colors.push($('#randomColor1 option:selected').text())
+      }
+      if(!($('#randomColor2 option:selected').text() === '--')){
+        colors.push($('#randomColor2 option:selected').text())
+      }
+      if(!($('#randomColor3 option:selected').text() === '--')){
+        colors.push($('#randomColor3 option:selected').text())
+      }
+      if(!($('#randomColor4 option:selected').text() === '--')){
+        colors.push($('#randomColor4 option:selected').text())
+      }
+      if(!($('#randomColor5 option:selected').text() === '--')){
+        colors.push($('#randomColor5 option:selected').text())
+      }
+
+      geojson = geocolor.random(geojson, colors, styles)
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'All'){
       geojson = geocolor.all(geojson, styles)
+      map.featureLayer.setGeoJSON(geojson);
+    }
+    else if(classification === 'Custom'){
+      colors.push($('#customColor1 option:selected').text())
+      if(!($('#customColor2 option:selected').text() === '--')){
+        colors.push($('#customColor2 option:selected').text())
+      }
+      colors.push($('#customColor3 option:selected').text())
+      var breaks = $('#customBreaks').val().split(',').map(function(x){return parseFloat(x)})
+
+      geojson = geocolor.custom(geojson, z, breaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson);
     }
   })

@@ -8,18 +8,13 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 30%;
+    right: 27%;
 }
 #controlContainer {
     float: right;
-    padding-top:10px;
-
 }
 #controls {
     float:left;
-    min-width: 330px
-}
-
-#dropFile{
-
+    min-width: 330px;
+    padding-right: 10px;
 }
