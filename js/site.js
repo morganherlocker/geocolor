@@ -7,9 +7,8 @@ $(function(){
     var reader = new FileReader();
     reader.readAsText(evt.currentTarget.files[0]);
     reader.onload = function(e) {
-      geojson = [JSON.parse(e.target.result)]
-      var fl = L.mapbox.featureLayer(geojson).addTo(map);
-      fl.setGeoJson(geojson)
+      geojson = JSON.parse(e.target.result)
+      map.featureLayer.setGeoJSON(geojson);
     }
   })
 
