@@ -16,7 +16,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://bootswatch.com/simplex/bootstrap.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </head>
@@ -28,9 +28,7 @@
 
             <label> Geojson File </label><br>
             <input id='dropFile' type='file' class='form-control'></input>
-            <br>
-            <label> Z Field </label><br>
-            <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
+            
             <br>
             <label>Classification</label><br>
             <select id='classification' class='form-control'>
@@ -44,7 +42,9 @@
             <br>
 
             <div id='jenksControls' hidden>
-                <label># breaks</label><br>
+                <label> Z Field </label><br>
+                <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
+                <label># Breaks</label><br>
                 <input id='jenksNumBreaks' type='number' min='1' value='5' class='form-control'>
                 <br>
                 <label>Colors</label><br>
@@ -84,7 +84,9 @@
             </div>
 
             <div id='quantilesControls' hidden>
-                <label># breaks</label><br>
+                <label> Z Field </label><br>
+                <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
+                <label># Breaks</label><br>
                 <input id='quantilesNumBreaks' type='number' min='1' value='5' class='form-control'>
                 <br>
                 <label>Colors</label><br>
@@ -124,7 +126,9 @@
             </div>
 
             <div id='equalIntervalsControls' hidden>
-                <label># breaks</label><br>
+                <label> Z Field </label><br>
+                <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
+                <label># Breaks</label><br>
                 <input id='equalIntervalsNumBreaks' type='number' min='1' value='5' class='form-control'></input>
                 <br>
                 <label>Colors</label><br>
@@ -164,6 +168,8 @@
             </div>
 
             <div id='customControls' hidden>
+                <label> Z Field </label><br>
+                <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
                 <label>Breaks</label><br>
                 <input id='customBreaks' type='text' placeholder='10, 100, 300, 500, 1000' class='form-control'></input>
                 <br>
@@ -269,7 +275,7 @@
             <br>
             <div>
                 <label>Styles</label><br>
-                <textarea id='styles' rows='10' cols='40' class='form-control'>{}</textarea>
+                <textarea id='styles' rows='4' cols='40' class='form-control'>{&#013  &#013}</textarea>
             </div>
             <br>
             <div>
