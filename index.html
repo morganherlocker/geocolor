@@ -26,11 +26,15 @@
         <div id='controls'>
             <h3><img id='logo' src='img/geocolor-no-text.jpg'>Geocolor</h3><hr>
 
-            <label> Geojson File </label><br>
+            <label> Geojson File </label>
+            <a href='#'>?</a>
+            <br>
             <input id='dropFile' type='file' class='form-control'></input>
             
             <br>
-            <label>Classification</label><br>
+            <label>Classification</label>
+            <a href='#'>?</a>
+            <br>
             <select id='classification' class='form-control'>
                 <option>All</option>
                 <option>Jenks</option>
@@ -42,13 +46,19 @@
             <br>
 
             <div id='jenksControls' hidden>
-                <label> Z Field </label><br>
+                <label> Z Field </label>
+                <a href='#'>?</a>
+                <br>
                 <input id='jenksZ' type='text' placeholder='population' class='form-control'></input>
                 <br>
-                <label># Breaks</label><br>
+                <label># Breaks</label>
+                <a href='#'>?</a>
+                <br>
                 <input id='jenksNumBreaks' type='number' min='1' value='5' class='form-control'>
                 <br>
-                <label>Colors</label><br>
+                <label>Colors</label>
+                <a href='#'>?</a>
+                <br>
                 <select id='jenksColor1' class='form-control'>
                     <option>white</option>
                     <option>red</option>
