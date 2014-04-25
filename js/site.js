@@ -138,4 +138,10 @@ $(function(){
       map.featureLayer.setGeoJSON(geojson);
     }
   })
+
+  // Toggle JSON style view
+  $('#styleToggle').click(function(){
+    $('#styleUI').toggle()
+    $('#styleJson').toggle()
+  })
 })

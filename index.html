@@ -303,17 +303,36 @@
       <div>
         <label>Styles</label>
         <br>
-        <ul class="nav nav-tabs">
-          <li class="active"><a href="#home" data-toggle="tab">Home</a>
-          </li>
-          <li><a href="#profile" data-toggle="tab">Profile</a>
-          </li>
-          <li><a href="#messages" data-toggle="tab">Messages</a>
-          </li>
-          <li><a href="#settings" data-toggle="tab">Settings</a>
-          </li>
-        </ul>
-        <textarea id='styles' rows='4' cols='40' class='form-control'>{&#013 &#013}</textarea>
+        <button id='styleToggle' type="button" class="btn btn-sm">JSON</button>
+        <div id="styleUI">
+          <br>
+          <label>marker-size</label>
+
+          <br>
+          <label>marker-color</label>
+
+          <br>
+          <label>stroke</label>
+
+          <br>
+          <label>stroke-opacity</label>
+
+          <br>
+          <label>stroke-width</label>
+
+          <br>
+          <label>fill</label>
+
+          <br>
+          <label>fill-opacity</label>
+
+
+
+        </div>
+        <div id="styleJson" hidden>
+          <textarea id='styles' rows='4' cols='40' class='form-control'>{&#013 &#013}</textarea>
+        </div>
+        
       </div>
       <br>
       <div>
