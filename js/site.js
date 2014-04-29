@@ -1,4 +1,5 @@
 var geojson = {}
+var fields = []
 $(function(){
 
   // Upload File
@@ -8,6 +9,7 @@ $(function(){
     reader.readAsText(evt.currentTarget.files[0]);
     reader.onload = function(e) {
       geojson = JSON.parse(e.target.result)
+      fields = Object.keys(geojson.features[0].properties)
       map.featureLayer.setGeoJSON(geojson);
     }
   })
@@ -137,11 +139,5 @@ $(function(){
       geojson = geocolor.custom(geojson, z, breaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson);
     }
-  })
-
-  // Toggle JSON style view
-  $('#styleToggle').click(function(){
-    $('#styleUI').toggle()
-    $('#styleJson').toggle()
   })
 })
