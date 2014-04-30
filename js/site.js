@@ -19,6 +19,9 @@ $(function(){
     var classification = $('#classification').val()
     if(classification === 'Jenks'){
       $('#jenksControls').show()
+      populateZSelect('jenksZSelect')
+
+      
       $('#quantilesControls').hide()
       $('#equalIntervalsControls').hide()
       $('#randomControls').hide()
@@ -141,3 +144,10 @@ $(function(){
     }
   })
 })
+
+function populateZSelect(id){
+  $('#'+id).empty()
+  fields.forEach(function(field){
+    $('#'+id).append('<option>'+field+'</option>')
+  })
+}
