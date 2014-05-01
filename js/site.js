@@ -84,7 +84,7 @@ $(function(){
       var numBreaks = parseFloat($('#jenksNumBreaks').val())
 
       geojson = geocolor.jenks(geojson, z, numBreaks, colors, styles)
-      map.featureLayer.setGeoJSON(geojson);
+      map.featureLayer.setGeoJSON(geojson)
     }
     else if(classification === 'Quantiles'){
       var z = $('#quantilesZSelect option:selected').text()
@@ -96,7 +96,7 @@ $(function(){
       var numBreaks = parseFloat($('#quantilesNumBreaks').val())
 
       geojson = geocolor.quantiles(geojson, z, numBreaks, colors, styles)
-      map.featureLayer.setGeoJSON(geojson);
+      map.featureLayer.setGeoJSON(geojson)
     }
     else if(classification === 'Equal Interval'){
       var z = $('#equalIntervalsZSelect option:selected').text()
@@ -108,7 +108,7 @@ $(function(){
       var numBreaks = parseFloat($('#equalIntervalsNumBreaks').val())
 
       geojson = geocolor.equalIntervals(geojson, z, numBreaks, colors, styles)
-      map.featureLayer.setGeoJSON(geojson);
+      map.featureLayer.setGeoJSON(geojson)
     }
     else if(classification === 'Random'){
       if(!($('#randomColor1 option:selected').text() === '--')){
@@ -128,11 +128,11 @@ $(function(){
       }
 
       geojson = geocolor.random(geojson, colors, styles)
-      map.featureLayer.setGeoJSON(geojson);
+      map.featureLayer.setGeoJSON(geojson)
     }
     else if(classification === 'All'){
       geojson = geocolor.all(geojson, styles)
-      map.featureLayer.setGeoJSON(geojson);
+      map.featureLayer.setGeoJSON(geojson)
     }
     else if(classification === 'Custom'){
       var z = $('#customZSelect option:selected').text()
@@ -144,13 +144,17 @@ $(function(){
       var breaks = $('#customBreaks').val().split(',').map(function(x){return parseFloat(x)})
 
       geojson = geocolor.custom(geojson, z, breaks, colors, styles)
-      map.featureLayer.setGeoJSON(geojson);
+      map.featureLayer.setGeoJSON(geojson)
     }
   })
 })
 
 function setPopups(layer){
-  var content = '<h1>wat</h1>';
+  var content = '<div class="propertiesPopup">';
+  fields.forEach(function(field){
+    content+='<p>'+field+': '+layer.feature.properties[field]
+  })
+  content += '</div>'
   layer.bindPopup(content);
 }
 
