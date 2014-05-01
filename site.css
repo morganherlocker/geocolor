@@ -42,6 +42,7 @@ body {
 }
 
 .propertiesPopup{
-  max-height: 300px;
+  max-height: 400px;
+  padding-top: 15px;
   overflow: auto;
 }

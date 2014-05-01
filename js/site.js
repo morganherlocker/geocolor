@@ -1,5 +1,6 @@
 var geojson = {}
 var fields = []
+var styleOpts = ['fill', 'fill-opacity', 'stroke', 'stroke-opacity', 'marker-color', 'stroke-width', 'marker-size', 'marker-symbol']
 
 $(function(){
   // Upload File
@@ -151,9 +152,13 @@ $(function(){
 
 function setPopups(layer){
   var content = '<div class="propertiesPopup">'
-  content += '<table>'
+  content += '<table class="table table-striped">'
   fields.forEach(function(field){
-    content+='<p>'+field+': '+layer.feature.properties[field]
+    if(!contains(styleOpts, field)){
+      content += '<tr>'
+      content+='<td><b>'+field+'</b></td><td>'+layer.feature.properties[field]+'</td>'
+      content += '</tr>'
+    }
   })
   content += '</table>'
   content += '</div>'
@@ -162,11 +167,11 @@ function setPopups(layer){
 }
 
 function populateZSelect(id){
-  var styleOpts = ['fill', 'fill-opacity', 'stroke', 'stroke-opacity', 'marker-color', 'stroke-width', 'marker-size', 'marker-symbol']
   $('#'+id).empty()
   fields.forEach(function(field){
-    if(!contains(styleOpts, field))
-    $('#'+id).append('<option>'+field+'</option>')
+    if(!contains(styleOpts, field)){
+      $('#'+id).append('<option>'+field+'</option>')
+    }
   })
 }
 
