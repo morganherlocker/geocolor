@@ -1,7 +1,7 @@
 var geojson = {}
 var fields = []
-$(function(){
 
+$(function(){
   // Upload File
   $('#dropFile').on('change', function(evt){
     console.log(evt)
@@ -15,7 +15,9 @@ $(function(){
       populateZSelect('equalIntervalsZSelect')
       populateZSelect('customZSelect')
 
-      map.featureLayer.setGeoJSON(geojson);
+      map.featureLayer.setGeoJSON(geojson)
+
+      map.featureLayer.eachLayer(setPopups)
     }
   })
 
@@ -147,6 +149,11 @@ $(function(){
   })
 })
 
+function setPopups(layer){
+  var content = '<h1>wat</h1>';
+  layer.bindPopup(content);
+}
+
 function populateZSelect(id){
   var styleOpts = ['fill', 'fill-opacity', 'stroke', 'stroke-opacity', 'marker-color', 'stroke-width', 'marker-size', 'marker-symbol']
   $('#'+id).empty()
@@ -159,9 +166,9 @@ function populateZSelect(id){
 function contains(a, obj) {
   var i = a.length;
   while (i--) {
-     if (a[i] === obj) {
-         return true;
-     }
+   if (a[i] === obj) {
+      return true;
+   }
   }
   return false;
 }
