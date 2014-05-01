@@ -10,6 +10,11 @@ $(function(){
     reader.onload = function(e) {
       geojson = JSON.parse(e.target.result)
       fields = Object.keys(geojson.features[0].properties)
+      populateZSelect('jenksZSelect')
+      populateZSelect('quantilesZSelect')
+      populateZSelect('equalIntervalsZSelect')
+      populateZSelect('customZSelect')
+
       map.featureLayer.setGeoJSON(geojson);
     }
   })
@@ -18,8 +23,6 @@ $(function(){
   $('#classification').change(function(){
     var classification = $('#classification').val()
     if(classification === 'Jenks'){
-      populateZSelect('jenksZSelect')
-
       $('#jenksControls').show()
       $('#quantilesControls').hide()
       $('#equalIntervalsControls').hide()
