@@ -26,7 +26,7 @@ $(function(){
       $('#jenksControls').show()
       $('#quantilesControls').hide()
       $('#equalIntervalsControls').hide()
-      $('#randomControls').hide()
+      $('#randomControls').hide() 
       $('#customControls').hide()
     }
     else if(classification === 'Quantiles'){
@@ -73,7 +73,7 @@ $(function(){
     var colors = []
 
     if(classification === 'Jenks'){
-      var z = $('#jenksZ').val()
+      var z = $('#jenksZSelect option:selected').text()
       colors.push($('#jenksColor1 option:selected').text())
       if(!($('#jenksColor2 option:selected').text() === '--')){
         colors.push($('#jenksColor2 option:selected').text())
@@ -85,7 +85,7 @@ $(function(){
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Quantiles'){
-      var z = $('#quantilesZ').val()
+      var z = $('#quantilesZSelect option:selected').text()
       colors.push($('#quantilesColor1 option:selected').text())
       if(!($('#quantilesColor2 option:selected').text() === '--')){
         colors.push($('#quantilesColor2 option:selected').text())
@@ -97,7 +97,7 @@ $(function(){
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Equal Interval'){
-      var z = $('#equalIntervalsZ').val()
+      var z = $('#equalIntervalsZSelect option:selected').text()
       colors.push($('#equalIntervalsColor1 option:selected').text())
       if(!($('#equalIntervalsColor2 option:selected').text() === '--')){
         colors.push($('#equalIntervalsColor2 option:selected').text())
@@ -133,7 +133,7 @@ $(function(){
       map.featureLayer.setGeoJSON(geojson);
     }
     else if(classification === 'Custom'){
-      var z = $('#customZ').val()
+      var z = $('#customZSelect option:selected').text()
       colors.push($('#customColor1 option:selected').text())
       if(!($('#customColor2 option:selected').text() === '--')){
         colors.push($('#customColor2 option:selected').text())
