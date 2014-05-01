@@ -1,42 +1,46 @@
 #logo {
-	width:30px; 
-	height: 37px;
-	padding-right:6px;
+  width:30px; 
+  height: 37px;
+  padding-right:6px;
 }
 
 body {
-    margin:0;
-    padding:0;
-    font-family: Verdana, Geneva, sans-serif;
+  margin:0;
+  padding:0;
+  font-family: Verdana, Geneva, sans-serif;
 }
 #map {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 27%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 27%;
 }
 #controlContainer {
-    float: right;
-    padding-bottom: 30px;
+  float: right;
+  padding-bottom: 30px;
 }
 #controls {
-	padding-left:10px;
-	padding-right:10px;
-	padding-bottom: 25px
-    overflow-x:hidden;
-    position:absolute;
-    bottom:0;
-    top:0;
-    right:0;
-    width:27%;
-    min-width:100px;
-    box-sizing:border-box;
-    background:#fff;
-    transition:all 200ms;
-    -webkit-transition:all 200ms;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 25px
+  overflow-x:hidden;
+  position:absolute;
+  bottom:0;
+  top:0;
+  right:0;
+  width:27%;
+  min-width:100px;
+  box-sizing:border-box;
+  background:#fff;
+  transition:all 200ms;
+  -webkit-transition:all 200ms;
 }
 
 #colorizeDiv{
-    padding-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.propertiesPopup{
+    
 }
