@@ -17,7 +17,6 @@ $(function(){
       populateZSelect('customZSelect')
 
       map.featureLayer.setGeoJSON(geojson)
-
       map.featureLayer.eachLayer(setPopups)
     }
   })
@@ -86,6 +85,7 @@ $(function(){
 
       geojson = geocolor.jenks(geojson, z, numBreaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson)
+      map.featureLayer.eachLayer(setPopups)
     }
     else if(classification === 'Quantiles'){
       var z = $('#quantilesZSelect option:selected').text()
@@ -98,6 +98,7 @@ $(function(){
 
       geojson = geocolor.quantiles(geojson, z, numBreaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson)
+      map.featureLayer.eachLayer(setPopups)
     }
     else if(classification === 'Equal Interval'){
       var z = $('#equalIntervalsZSelect option:selected').text()
@@ -110,6 +111,7 @@ $(function(){
 
       geojson = geocolor.equalIntervals(geojson, z, numBreaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson)
+      map.featureLayer.eachLayer(setPopups)
     }
     else if(classification === 'Random'){
       if(!($('#randomColor1 option:selected').text() === '--')){
@@ -130,10 +132,12 @@ $(function(){
 
       geojson = geocolor.random(geojson, colors, styles)
       map.featureLayer.setGeoJSON(geojson)
+      map.featureLayer.eachLayer(setPopups)
     }
     else if(classification === 'All'){
       geojson = geocolor.all(geojson, styles)
       map.featureLayer.setGeoJSON(geojson)
+      map.featureLayer.eachLayer(setPopups)
     }
     else if(classification === 'Custom'){
       var z = $('#customZSelect option:selected').text()
@@ -146,6 +150,7 @@ $(function(){
 
       geojson = geocolor.custom(geojson, z, breaks, colors, styles)
       map.featureLayer.setGeoJSON(geojson)
+      map.featureLayer.eachLayer(setPopups)
     }
   })
 })
