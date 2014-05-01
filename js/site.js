@@ -18,10 +18,9 @@ $(function(){
   $('#classification').change(function(){
     var classification = $('#classification').val()
     if(classification === 'Jenks'){
-      $('#jenksControls').show()
       populateZSelect('jenksZSelect')
 
-      
+      $('#jenksControls').show()
       $('#quantilesControls').hide()
       $('#equalIntervalsControls').hide()
       $('#randomControls').hide()
@@ -146,8 +145,20 @@ $(function(){
 })
 
 function populateZSelect(id){
+  var styleOpts = ['fill', 'fill-opacity', 'stroke', 'stroke-opacity', 'marker-color', 'stroke-width', 'marker-size', 'marker-symbol']
   $('#'+id).empty()
   fields.forEach(function(field){
+    if(!contains(styleOpts, field))
     $('#'+id).append('<option>'+field+'</option>')
   })
+}
+
+function contains(a, obj) {
+  var i = a.length;
+  while (i--) {
+     if (a[i] === obj) {
+         return true;
+     }
+  }
+  return false;
 }
