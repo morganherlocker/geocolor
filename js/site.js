@@ -150,11 +150,14 @@ $(function(){
 })
 
 function setPopups(layer){
-  var content = '<div class="propertiesPopup">';
+  var content = '<div class="propertiesPopup">'
+  content += '<table>'
   fields.forEach(function(field){
     content+='<p>'+field+': '+layer.feature.properties[field]
   })
+  content += '</table>'
   content += '</div>'
+
   layer.bindPopup(content);
 }
 
