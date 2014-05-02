@@ -220,6 +220,15 @@ function setupHelp(){
     help+= '<pre><code>{\n  "stroke:thickness": "1",\n  "fill-opacity": 0.4\n}</code></pre>'
     vex.dialog.alert(help)
   })
+
+  $('#aboutLink').click(function(){
+    var help = '<h3>About Geocolor</h3>'
+    help+= '<p>Geocolor is a web app and javascript library for creating quick geographic data visualizations such as '
+    help+= '<a href="http://en.wikipedia.org/wiki/Choropleth_map">choloropleths</a>. '
+    help+= '<p>Geocolor is <a href="https://github.com/morganherlocker/geocolor">open source</a>, and '
+    help+= 'was created by <a href="https://twitter.com/morganherlocker">@morganherlocker</a>.'
+    vex.dialog.alert(help)
+  })
 }
 
 function contains(a, obj) {

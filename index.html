@@ -24,6 +24,10 @@
 <body>
   <div id='controlContainer'>
     <div id='controls'>
+      <div id='aboutBar'>
+        <a class='aboutBarLink' href='#'>about</a>
+        <a class='aboutBarLink' href='https://github.com/morganherlocker/geocolor'>github</a>
+      </div>
       <h3>
         <img id='logo' src='img/geocolor-no-text.jpg'>Geocolor</h3>
       <hr>
@@ -59,7 +63,6 @@
         <input id='jenksNumBreaks' type='number' min='1' value='5' class='form-control'>
         <br>
         <label>Colors</label>
-        <a href='#'>?</a>
         <br>
         <select id='jenksColor1' class='form-control'>
           <option>white</option>
@@ -324,8 +327,11 @@
 
   <div id='map'></div>
   <script>
-  map = L.mapbox.map('map', 'examples.map-20v6611k')
+  map = L.mapbox.map('map')
     .fitWorld().setZoom(2)
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
   </script>
 </body>
 
