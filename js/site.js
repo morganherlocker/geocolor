@@ -200,9 +200,24 @@ function setupHelp(){
     vex.dialog.alert(help)
   })
 
-  $('.zField').click(function(){
+  $('.zFieldHelp').click(function(){
     var help = '<h3>Z Field</h3>'
-    help+= '<p>The classification option determines how colors will be assigned. '
+    help+= '<p>The z field is what determines a feature\'s relative color. This could be anything from population, to density of cats.'
+    vex.dialog.alert(help)
+  })
+
+  $('.breaksHelp').click(function(){
+    var help = '<h3>Breaks</h3>'
+    help+= '<p>Breaks are the values at which data is divided. More breaks means more subtle color shifts.'
+    vex.dialog.alert(help)
+  })
+
+  $('#stylesHelp').click(function(){
+    var help = '<h3>Styles</h3>'
+    help+= '<p>The Styles field allows you to enter any valid <a href="https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0">simplestyle-spec styles</a>. '
+    help+= 'These styles will be applied across all features.'
+    help+= '<p>If you had a set of polygons and wanted to change the stroke width and fill opacity, you could enter the following:'
+    help+= '<pre><code>{\n  "stroke:thickness": "1",\n  "fill-opacity": 0.4\n}</code></pre>'
     vex.dialog.alert(help)
   })
 }
