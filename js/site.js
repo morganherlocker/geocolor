@@ -3,6 +3,8 @@ var fields = []
 var styleOpts = ['fill', 'fill-opacity', 'stroke', 'stroke-opacity', 'marker-color', 'stroke-width', 'marker-size', 'marker-symbol']
 
 $(function(){
+  setPopovers()
+
   // Upload File
   $('#dropFile').on('change', function(evt){
     console.log(evt)
@@ -17,6 +19,7 @@ $(function(){
       populateZSelect('customZSelect')
 
       map.featureLayer.setGeoJSON(geojson)
+      map.fitBounds(map.featureLayer.getBounds());
       map.featureLayer.eachLayer(setPopups)
     }
   })
@@ -178,6 +181,14 @@ function populateZSelect(id){
       $('#'+id).append('<option>'+field+'</option>')
     }
   })
+}
+
+function setPopovers(){
+  var geojsonFile = ''
+  geojsonFile+= '<h1>Geojson File</h1>'
+  geojsonFile+= '<p>Input a valid <a href="http://geojson.org/">geojson file containing a FeatureCollection</a>'
+  $('#geojsonFileHelp').popover({'data-html': geojsonFile, 'data-trigger':'hover'})
+  $('#geojsonFileHelp').popover('show')
 }
 
 function contains(a, obj) {
