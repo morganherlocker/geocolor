@@ -51,6 +51,40 @@ body {
   float: right;
 }
 
-#geojsonExport {
+.btn-green {
+  border-radius: 2px;
+  position: relative;
+  vertical-align: top;
+  width: 100px;
+  height: 35px;
+  padding: 0;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: green;
+  border: 0;
+  border-bottom: 2px solid darkgreen;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px darkgreen;
+  box-shadow: inset 0 -2px darkgreen;
+}
 
+.btn-red {
+  border-radius: 2px;
+  position: relative;
+  vertical-align: top;
+  width: 100px;
+  height: 35px;
+  padding: 0;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #cc2627;
+  border: 0;
+  border-bottom: 2px solid darkred;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px darkred;
+  box-shadow: inset 0 -2px darkred;
 }

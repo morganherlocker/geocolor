@@ -160,7 +160,7 @@ $(function(){
   // Export Geojson
   $('#export').click(function(){
     var content = '<h3>Geojson</h3><hr>'
-    content+= '<textarea id="geojsonExport" rows="4" cols="40" class="form-control">'+JSON.stringify(geojson)+'</textarea>'
+    content+= '<textarea id="geojsonExport" rows="8" cols="40" class="form-control">'+JSON.stringify(geojson)+'</textarea>'
     vex.dialog.alert(content)
   })
 })
