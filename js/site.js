@@ -3,7 +3,7 @@ var fields = []
 var styleOpts = ['fill', 'fill-opacity', 'stroke', 'stroke-opacity', 'marker-color', 'stroke-width', 'marker-size', 'marker-symbol']
 
 $(function(){
-  setPopovers()
+  setupHelp()
 
   // Upload File
   $('#dropFile').on('change', function(evt){
@@ -183,12 +183,28 @@ function populateZSelect(id){
   })
 }
 
-function setPopovers(){
-  var geojsonFile = ''
-  geojsonFile+= '<h1>Geojson File</h1>'
-  geojsonFile+= '<p>Input a valid <a href="http://geojson.org/">geojson file containing a FeatureCollection</a>'
-  $('#geojsonFileHelp').popover({'data-html': geojsonFile, 'data-trigger':'hover'})
-  $('#geojsonFileHelp').popover('show')
+function setupHelp(){
+  $('#geojsonFileHelp').click(function(){
+    var help = '<h3>Geojson File</h3>'
+    help+= '<p>Input a valid <a href="http://geojson.org/">geojson</a> file containing a FeatureCollection.'
+    vex.dialog.alert(help)
+  })
+
+  $('#classificationHelp').click(function(){
+    var help = '<h3>Classification</h3>'
+    help+= '<p>The classification option determines how colors will be assigned. '
+    help+= '<a href="http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization">Jenks</a>'
+    help+= ', <a href="http://en.wikipedia.org/wiki/Quantile">Quantiles</a>'
+    help+= ', and Equal Intervals '
+    help+= 'all work well for graduated color ramps.'
+    vex.dialog.alert(help)
+  })
+
+  $('.zField').click(function(){
+    var help = '<h3>Z Field</h3>'
+    help+= '<p>The classification option determines how colors will be assigned. '
+    vex.dialog.alert(help)
+  })
 }
 
 function contains(a, obj) {

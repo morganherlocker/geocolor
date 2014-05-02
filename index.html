@@ -10,11 +10,15 @@
   <script src='js/site.js'></script>
   <script src='geocolor.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
-  <link href='site.css' rel='stylesheet' />
+  <link href='css/site.css' rel='stylesheet' />
   <link rel="icon" href="img/geocolor.ico">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://bootswatch.com/simplex/bootstrap.min.css">
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="js/vex.combined.min.js"></script>
+  <script>vex.defaultOptions.className = 'vex-theme-default';</script>
+  <link rel="stylesheet" href="css/vex.css" />
+  <link rel="stylesheet" href="css/vex-theme-default.css" />
 </head>
 
 <body>
@@ -25,13 +29,13 @@
       <hr>
 
       <label>Geojson File</label>
-      <a id='geojsonFileHelp' data-toggle="popover" onClick="$('#geojsonFileHelp').popover('show')">?</a>
+      <a id='geojsonFileHelp' href='#'>?</a>
       <br>
       <input id='dropFile' type='file' class='form-control'></input>
 
       <br>
       <label>Classification</label>
-      <a href='#'>?</a>
+      <a id='classificationHelp' href='#'>?</a>
       <br>
       <select id='classification' class='form-control'>
         <option>All</option>
@@ -45,7 +49,7 @@
 
       <div id='jenksControls' hidden>
         <label>Z Field</label>
-        <a href='#'>?</a>
+        <a class='zField' href='#'>?</a>
         <br>
         <select id='jenksZSelect' class='form-control'></select>
         <br>
