@@ -37,12 +37,20 @@ body {
   -webkit-transition:all 200ms;
 }
 
-#colorizeDiv{
+#colorizeDiv {
   padding-bottom: 20px;
 }
 
-.propertiesPopup{
+.propertiesPopup {
   max-height: 400px;
   padding-top: 15px;
   overflow: auto;
+}
+
+#aboutBar {
+  float: right;
+}
+
+#geojsonExport {
+
 }

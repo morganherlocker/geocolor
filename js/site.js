@@ -156,6 +156,13 @@ $(function(){
       map.featureLayer.eachLayer(setPopups)
     }
   })
+  
+  // Export Geojson
+  $('#export').click(function(){
+    var content = '<h3>Geojson</h3><hr>'
+    content+= '<textarea id="geojsonExport" rows="4" cols="40" class="form-control">'+JSON.stringify(geojson)+'</textarea>'
+    vex.dialog.alert(content)
+  })
 })
 
 function setPopups(layer){
@@ -185,13 +192,13 @@ function populateZSelect(id){
 
 function setupHelp(){
   $('#geojsonFileHelp').click(function(){
-    var help = '<h3>Geojson File</h3>'
+    var help = '<h3>Geojson File</h3><hr>'
     help+= '<p>Input a valid <a href="http://geojson.org/">geojson</a> file containing a FeatureCollection.'
     vex.dialog.alert(help)
   })
 
   $('#classificationHelp').click(function(){
-    var help = '<h3>Classification</h3>'
+    var help = '<h3>Classification</h3><hr>'
     help+= '<p>The classification option determines how colors will be assigned. '
     help+= '<a href="http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization">Jenks</a>'
     help+= ', <a href="http://en.wikipedia.org/wiki/Quantile">Quantiles</a>'
@@ -201,19 +208,19 @@ function setupHelp(){
   })
 
   $('.zFieldHelp').click(function(){
-    var help = '<h3>Z Field</h3>'
+    var help = '<h3>Z Field</h3><hr>'
     help+= '<p>The z field is what determines a feature\'s relative color. This could be anything from population, to density of cats.'
     vex.dialog.alert(help)
   })
 
   $('.breaksHelp').click(function(){
-    var help = '<h3>Breaks</h3>'
+    var help = '<h3>Breaks</h3><hr>'
     help+= '<p>Breaks are the values at which data is divided. More breaks means more subtle color shifts.'
     vex.dialog.alert(help)
   })
 
   $('#stylesHelp').click(function(){
-    var help = '<h3>Styles</h3>'
+    var help = '<h3>Styles</h3><hr>'
     help+= '<p>The Styles field allows you to enter any valid <a href="https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0">simplestyle-spec styles</a>. '
     help+= 'These styles will be applied across all features.'
     help+= '<p>If you had a set of polygons and wanted to change the stroke width and fill opacity, you could enter the following:'
@@ -222,7 +229,7 @@ function setupHelp(){
   })
 
   $('#aboutLink').click(function(){
-    var help = '<h3>About Geocolor</h3>'
+    var help = '<h3>About Geocolor</h3><hr>'
     help+= '<p>Geocolor is a web app and javascript library for creating quick geographic data visualizations such as '
     help+= '<a href="http://en.wikipedia.org/wiki/Choropleth_map">choloropleths</a>. '
     help+= '<p>Geocolor is <a href="https://github.com/morganherlocker/geocolor">open source</a>, and '
