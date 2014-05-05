@@ -17,6 +17,25 @@ $(function(){
   // Setup help popups
   setupHelp()
 
+  // Load Sample
+  $('#sample').click(function(){
+    geojson = sample
+    fields = Object.keys(geojson.features[0].properties)
+    populateZSelect('jenksZSelect')
+    populateZSelect('quantilesZSelect')
+    populateZSelect('equalIntervalsZSelect')
+    populateZSelect('customZSelect')
+
+    map.featureLayer.setGeoJSON(geojson)
+    map.fitBounds(map.featureLayer.getBounds());
+    map.featureLayer.eachLayer(setPopups)
+
+    $('#classification').val('Quantiles')
+    $('#classification').trigger('change')
+    $('#quantilesZSelect').val('density')
+    $('#colorize').trigger('click')
+  })
+
   // Upload File
   $('#dropFile').on('change', function(evt){
     var reader = new FileReader();
