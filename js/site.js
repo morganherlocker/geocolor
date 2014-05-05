@@ -33,6 +33,9 @@ $(function(){
     $('#classification').val('Quantiles')
     $('#classification').trigger('change')
     $('#quantilesZSelect').val('density')
+    $('#quantilesColor1').val('green')
+    $('#quantilesColor2').val('yellow')
+    $('#quantilesColor3').val('red')
     $('#colorize').trigger('click')
   })
 
