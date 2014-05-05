@@ -3,6 +3,18 @@ var fields = []
 var styleOpts = ['fill', 'fill-opacity', 'stroke', 'stroke-opacity', 'marker-color', 'stroke-width', 'marker-size', 'marker-symbol']
 
 $(function(){
+  // Setup codemirror
+  var textarea = $('#styles')[0]
+  var editor = CodeMirror.fromTextArea(textarea,{
+    mode: 'application/json',
+    matchBrackets: true,
+    tabSize: 2,
+    lineNumbers: true
+  })
+  //editor.setSize(300, 100);
+  editor.setValue('{\n  \n}')
+
+  // Setup help popups
   setupHelp()
 
   // Upload File
