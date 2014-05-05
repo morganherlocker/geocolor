@@ -196,6 +196,29 @@ $(function(){
     content+= '<textarea id="geojsonExport" rows="8" cols="40" class="form-control">'+JSON.stringify(geojson)+'</textarea>'
     vex.dialog.alert(content)
   })
+
+  // Create Gist
+  $('#gist').click(function(){
+    var template
+    var gist = {
+      "description": "geocolor map",
+      "public": true,
+      "files": {
+        "geocolor.geojson": {
+          "content": JSON.stringify(geojson, null, 2)
+        },
+        "index.html": {
+          "content": shareTemplate
+        }
+      }
+    }
+
+    $.post('https://api.github.com/gists', JSON.stringify(gist), function(res){
+      var content = '<h3>Share</h3><hr>'
+      content+= '<p><a target="_blank" href="http://bl.ocks.org/anonymous/raw/'+res.id+'">http://bl.ocks.org/anonymous/raw/'+res.id+'</a>'
+      vex.dialog.alert(content)
+    })
+  })
 })
 
 function setPopups(layer){
