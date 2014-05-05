@@ -19,7 +19,6 @@ $(function(){
 
   // Upload File
   $('#dropFile').on('change', function(evt){
-    console.log(evt)
     var reader = new FileReader();
     reader.readAsText(evt.currentTarget.files[0]);
     reader.onload = function(e) {
@@ -86,7 +85,7 @@ $(function(){
   // Colorize Features
   $('#colorize').click(function(){
     var classification = $('#classification').val()
-    var styles = JSON.parse($('#styles').val())
+    var styles = JSON.parse(editor.getValue())
     var colors = []
 
     if(classification === 'Jenks'){
