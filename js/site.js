@@ -256,8 +256,8 @@ function setupHelp(){
   $('#classificationHelp').click(function(){
     var help = '<h3>Classification</h3><hr>'
     help+= '<p>The classification option determines how colors will be assigned. '
-    help+= '<a href="http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization">Jenks</a>'
-    help+= ', <a href="http://en.wikipedia.org/wiki/Quantile">Quantiles</a>'
+    help+= '<a target="_blank" href="http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization">Jenks</a>'
+    help+= ', <a target="_blank" href="http://en.wikipedia.org/wiki/Quantile">Quantiles</a>'
     help+= ', and Equal Intervals '
     help+= 'all work well for graduated color ramps.'
     vex.dialog.alert(help)
@@ -277,7 +277,7 @@ function setupHelp(){
 
   $('#stylesHelp').click(function(){
     var help = '<h3>Styles</h3><hr>'
-    help+= '<p>The Styles field allows you to enter any valid <a href="https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0">simplestyle-spec styles</a>. '
+    help+= '<p>The Styles field allows you to enter any valid <a target="_blank" href="https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0">simplestyle-spec styles</a>. '
     help+= 'These styles will be applied across all features.'
     help+= '<p>If you had a set of polygons and wanted to change the stroke width and fill opacity, you could enter the following:'
     help+= '<pre><code>{\n  "stroke:thickness": "1",\n  "fill-opacity": 0.4\n}</code></pre>'
@@ -287,9 +287,9 @@ function setupHelp(){
   $('#aboutLink').click(function(){
     var help = '<h3>About Geocolor</h3><hr>'
     help+= '<p>Geocolor is a web app and javascript library for creating quick geographic data visualizations such as '
-    help+= '<a href="http://en.wikipedia.org/wiki/Choropleth_map">choloropleths</a>. '
-    help+= '<p>Geocolor is <a href="https://github.com/morganherlocker/geocolor">open source</a>, and '
-    help+= 'was created by <a href="https://twitter.com/morganherlocker">@morganherlocker</a>.'
+    help+= '<a target="_blank" href="http://en.wikipedia.org/wiki/Choropleth_map">choloropleths</a>. '
+    help+= '<p>Geocolor is <a target="_blank" href="https://github.com/morganherlocker/geocolor">open source</a>, and '
+    help+= 'was created by <a target="_blank" href="https://twitter.com/morganherlocker">@morganherlocker</a>.'
     vex.dialog.alert(help)
   })
 }
