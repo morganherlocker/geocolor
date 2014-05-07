@@ -249,7 +249,7 @@ function populateZSelect(id){
 function setupHelp(){
   $('#geojsonFileHelp').click(function(){
     var help = '<h3>Geojson File</h3><hr>'
-    help+= '<p>Input a valid <a href="http://geojson.org/">geojson</a> file containing a FeatureCollection.'
+    help+= '<p>Input a valid <a target="_blank" href="http://geojson.org/">geojson</a> file containing a FeatureCollection.'
     vex.dialog.alert(help)
   })
 
