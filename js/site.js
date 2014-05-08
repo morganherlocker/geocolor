@@ -192,14 +192,26 @@ $(function(){
   
   // Export Geojson
   $('#export').click(function(){
-    var content = '<h3>Geojson</h3><hr>'
-    content+= '<textarea id="geojsonExport" rows="8" cols="40" class="form-control">'+JSON.stringify(geojson)+'</textarea>'
-    vex.dialog.alert(content)
+    //var content = '<h3>Geojson</h3><hr>'
+    //content+= '<textarea id="geojsonExport" rows="8" cols="40" class="form-control">'+JSON.stringify(geojson)+'</textarea>'
+    //vex.dialog.alert(content)
+    var gist = {
+      "description": "geocolor.geojson",
+      "public": true,
+      "files": {
+        "geocolor.geojson": {
+          "content": JSON.stringify(geojson, null, 2)
+        }
+      }
+    }
+
+    $.post('https://api.github.com/gists', JSON.stringify(gist), function(res){
+      window.open('https://cdn.rawgit.com/anonymous/'+res.id+'/raw/geocolor.geojson', '_self')
+    })
   })
 
   // Create Gist
   $('#gist').click(function(){
-    var template
     var gist = {
       "description": "geocolor map",
       "public": true,
