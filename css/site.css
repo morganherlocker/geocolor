@@ -1,9 +1,8 @@
 #logo {
-  width:30px; 
+  width:30px;
   height: 37px;
   padding-right:6px;
 }
-
 body {
   margin:0;
   padding:0;
@@ -23,8 +22,7 @@ body {
 #controls {
   padding-left:10px;
   padding-right:10px;
-  padding-bottom: 25px
-  overflow-x:hidden;
+  padding-bottom: 25px overflow-x:hidden;
   position:absolute;
   bottom:0;
   top:0;
@@ -36,21 +34,17 @@ body {
   transition:all 200ms;
   -webkit-transition:all 200ms;
 }
-
 #colorizeDiv {
   padding-bottom: 20px;
 }
-
 .propertiesPopup {
   max-height: 400px;
   padding-top: 15px;
   overflow: auto;
 }
-
 #aboutBar {
   float: right;
 }
-
 .btn-green {
   border-radius: 2px;
   position: relative;
@@ -69,7 +63,6 @@ body {
   -webkit-box-shadow: inset 0 -2px darkgreen;
   box-shadow: inset 0 -2px darkgreen;
 }
-
 .btn-red {
   border-radius: 2px;
   position: relative;
@@ -88,7 +81,6 @@ body {
   -webkit-box-shadow: inset 0 -2px darkred;
   box-shadow: inset 0 -2px darkred;
 }
-
 .btn-yellow {
   border-radius: 2px;
   position: relative;
@@ -107,8 +99,27 @@ body {
   -webkit-box-shadow: inset 0 -2px #cc8400;
   box-shadow: inset 0 -2px #cc8400;
 }
-
-.CodeMirror{
+.CodeMirror {
   border: 1px solid #eee;
   max-height:100px;
+}
+#legend {
+  border: 1px solid #eee;
+  position: fixed;
+  background-color: white;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  bottom: 0;
+}
+#labels{
+  float: left;
+  padding-right: 15px;
+}
+#symbols{
+  float: right;
+}
+.symbolBox{
+  width:20px;
+  height:20px;
 }

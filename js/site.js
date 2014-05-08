@@ -41,6 +41,7 @@ $(function(){
 
   // Upload File
   $('#dropFile').on('change', function(evt){
+    $('#legend').hide()
     var reader = new FileReader();
     reader.readAsText(evt.currentTarget.files[0]);
     reader.onload = function(e) {
@@ -59,6 +60,7 @@ $(function(){
 
   // Select Classification Options
   $('#classification').change(function(){
+    $('#legend').hide()
     var classification = $('#classification').val()
     if(classification === 'Jenks'){
       $('#jenksControls').show()
@@ -188,6 +190,9 @@ $(function(){
       map.featureLayer.setGeoJSON(geojson)
       map.featureLayer.eachLayer(setPopups)
     }
+
+    // Setup Legend
+    setupLegend(classification, z)
   })
   
   // Export Geojson
@@ -304,6 +309,32 @@ function setupHelp(){
     help+= 'was created by <a target="_blank" href="https://twitter.com/morganherlocker">@morganherlocker</a>.'
     vex.dialog.alert(help)
   })
+}
+
+function setupLegend(classification, z){
+  if(classification === 'Jenks' || classification === 'Quantiles' || classification === 'Equal Interval' || classification === 'Custom') {
+    $('#legend').empty()
+    // Labels
+    var legend = '<h5>'+z+'</h5>'
+    legend+= '<div id="labels">'
+    geojson.legend.symbols.forEach(function(symbol){
+      legend+='<div>'+parseFloat(symbol.from).toFixed(2)+' - '+parseFloat(symbol.to).toFixed(2)+'</div>'
+    })
+    legend+='</div>'
+
+    // Symbols
+    legend+= '<div id="symbols">'
+    geojson.legend.symbols.forEach(function(symbol){
+      legend+='<div class="symbolBox" style="background-color:'+symbol.color+'"></div>'
+    })
+    legend+='</div>'
+    
+    $('#legend').append(legend)
+    $('#legend').show()
+  }
+  else {
+    $('#legend').hide()
+  }
 }
 
 function contains(a, obj) {
