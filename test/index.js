@@ -91,7 +91,7 @@ describe('geocolor', function(){
     geo.should.be.ok
     geo.features.should.be.ok
     geo.features[0].properties['fill'].should.be.ok
-    fs.writeFileSync(__dirname+'/out/styled10.geojson', JSON.stringify(geo, null, 2))
+    //fs.writeFileSync(__dirname+'/out/styled10.geojson', JSON.stringify(geo, null, 2))
   })
   it('should take a set of polygons and assign random colors with a custom opacity and stroke, then output geojson with color styles', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/sc.geojson'))
@@ -107,7 +107,7 @@ describe('geocolor', function(){
     geo.features[0].properties['fill'].should.be.ok
     geo.features[0].properties['fill-opacity'].should.equal(.4)
     geo.features[0].properties['stroke'].should.equal('#ffffff')
-    fs.writeFileSync(__dirname+'/out/styled11.geojson', JSON.stringify(geo, null, 2))
+    //fs.writeFileSync(__dirname+'/out/styled11.geojson', JSON.stringify(geo, null, 2))
   })
   it('should take a set of polygons and assign a set of styles, then output geojson', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/sc.geojson'))
@@ -130,7 +130,7 @@ describe('geocolor', function(){
     var geo = JSON.parse(fs.readFileSync(__dirname+'/in/sc.geojson'))
     geo.features[0].should.be.ok
 
-    geo = geocolor.random(geo, ['green', 'red'])
+    geo = geocolor.jenks(geo, 'poverty', 3, ['green', 'yellow', 'red'])
     geo.should.be.ok
     geo.features.should.be.ok
     geo.legend.should.be.ok
