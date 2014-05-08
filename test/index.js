@@ -134,9 +134,9 @@ describe('geocolor', function(){
     geo.should.be.ok
     geo.features.should.be.ok
     geo.legend.should.be.ok
-    geo.legend[0].from.should.be.ok
-    geo.legend[0].to.should.be.ok
-    geo.legend[0].color.should.be.ok
+    geo.legend.symbols[0].from.should.be.ok
+    geo.legend.symbols[0].to.should.be.ok
+    geo.legend.symbols[0].color.should.be.ok
     fs.writeFileSync(__dirname+'/out/styled13.geojson', JSON.stringify(geo, null, 2))
   })
 })

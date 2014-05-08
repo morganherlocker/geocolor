@@ -8191,5 +8191,44 @@
         ]
       }
     }
-  ]
+  ],
+  "legend": {
+    "symbols": [
+      {
+        "from": 1,
+        "to": 8,
+        "color": "#1f00df"
+      },
+      {
+        "from": 8,
+        "to": 15,
+        "color": "#3f00bf"
+      },
+      {
+        "from": 15,
+        "to": 22,
+        "color": "#5f009f"
+      },
+      {
+        "from": 22,
+        "to": 31,
+        "color": "#7f007f"
+      },
+      {
+        "from": 31,
+        "to": 38,
+        "color": "#9f005f"
+      },
+      {
+        "from": 38,
+        "to": 53,
+        "color": "#bf003f"
+      },
+      {
+        "from": 53,
+        "to": 71,
+        "color": "#df001f"
+      }
+    ]
+  }
 }
