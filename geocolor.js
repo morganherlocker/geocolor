@@ -20,6 +20,7 @@ module.exports = {
     var breaks = ss.jenks(vals, numBreaks)
     var normals = normalize(breaks.length)
     fc = colorize(fc, z, colors, breaks, normals)
+    fc = setLegend(fc, z, colors, breaks, normals)
     fc = applyStyle(fc, style)
     return fc
   },
@@ -43,6 +44,7 @@ module.exports = {
     var breaks = ss.quantile(vals, quants)
     var normals = normalize(breaks.length)
     fc = colorize(fc, z, colors, breaks, normals)
+    fc = setLegend(fc, z, colors, breaks, normals)
     fc = applyStyle(fc, style)
     return fc
   },
@@ -65,6 +67,7 @@ module.exports = {
     }
     var normals = normalize(breaks.length)
     fc = colorize(fc, z, colors, breaks, normals)
+    fc = setLegend(fc, z, colors, breaks, normals)
     fc = applyStyle(fc, style)
     return fc
   },
@@ -78,6 +81,7 @@ module.exports = {
 
     var normals = normalize(breaks.length)
     fc = colorize(fc, z, colors, breaks, normals)
+    fc = setLegend(fc, z, colors, breaks, normals)
     fc = applyStyle(fc, style)
     return fc
   },
@@ -130,6 +134,26 @@ function colorize(fc, z, colors, breaks, normals){
       }
     })
   })
+  return fc
+}
+
+function setLegend(fc, z, colors, breaks, normals){
+  var legend = {
+    symbols: []
+  }
+  var scale = chroma.scale(colors);
+  _.each(breaks, function(b1, i){
+    var b2 = breaks[i + 1]
+    var colorHex = scale(normals[i+1]).hex()
+    var symbol = {
+      from: b1,
+      to: b2,
+      color: colorHex
+    }
+    legend.symbols.push(symbol)
+  })
+  legend.symbols.pop()
+  fc.legend = legend
   return fc
 }
 

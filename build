@@ -1,0 +1,2 @@
+browserify index.js -o geocolor.js -s geocolor
+uglifyjs geocolor.js -o geocolor.min.js
