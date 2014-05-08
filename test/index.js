@@ -126,4 +126,17 @@ describe('geocolor', function(){
     geo.features[0].properties['stroke'].should.equal('#ffffff')
     fs.writeFileSync(__dirname+'/out/styled12.geojson', JSON.stringify(geo, null, 2))
   })
+  it('should create a legend attribute', function(){
+    var geo = JSON.parse(fs.readFileSync(__dirname+'/in/sc.geojson'))
+    geo.features[0].should.be.ok
+
+    geo = geocolor.random(geo, ['green', 'red'])
+    geo.should.be.ok
+    geo.features.should.be.ok
+    geo.legend.should.be.ok
+    geo.legend[0].from.should.be.ok
+    geo.legend[0].to.should.be.ok
+    geo.legend[0].color.should.be.ok
+    fs.writeFileSync(__dirname+'/out/styled13.geojson', JSON.stringify(geo, null, 2))
+  })
 })
