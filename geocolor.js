@@ -153,6 +153,7 @@ function setLegend(fc, z, colors, breaks, normals){
     legend.symbols.push(symbol)
   })
   legend.symbols.pop()
+  legend.title = z
   fc.legend = legend
   return fc
 }
