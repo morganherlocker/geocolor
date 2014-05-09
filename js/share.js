@@ -9,6 +9,13 @@ shareTemplate = "<!DOCTYPE html> \
 line-height: 1.42857143; \
 color: #808080; \
 font-weight: 200;} \
+h5{ \
+font-weight: 300; \
+line-height: 1.1; \
+color: #333333; \
+font-size: 16px; \
+margin: 5px; \
+} \
   #map { position:absolute; top:0; bottom:0; width:100%; } \
   .marker-properties { \
     border-collapse:collapse; \
