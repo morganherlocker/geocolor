@@ -192,7 +192,7 @@ $(function(){
     }
 
     // Setup Legend
-    setupLegend(classification, z)
+    setupLegend(classification)
   })
   
   // Export Geojson
@@ -311,11 +311,11 @@ function setupHelp(){
   })
 }
 
-function setupLegend(classification, z){
+function setupLegend(classification){
   if(classification === 'Jenks' || classification === 'Quantiles' || classification === 'Equal Interval' || classification === 'Custom') {
     $('#legend').empty()
     // Labels
-    var legend = '<h5>'+z+'</h5>'
+    var legend = '<h5>'+geojson.legend.title+'</h5>'
     legend+= '<div id="labels">'
     geojson.legend.symbols.forEach(function(symbol){
       legend+='<div>'+parseFloat(symbol.from).toFixed(2)+' - '+parseFloat(symbol.to).toFixed(2)+'</div>'
