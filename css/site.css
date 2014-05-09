@@ -39,7 +39,7 @@ body {
 }
 .propertiesPopup {
   max-height: 400px;
-  padding-top: 15px;
+  padding-top: 10px;
   overflow: auto;
 }
 #aboutBar {
@@ -122,4 +122,7 @@ body {
 .symbolBox{
   width:20px;
   height:20px;
+}
+#propertiesTable {
+  border: 1px solid #eee;
 }

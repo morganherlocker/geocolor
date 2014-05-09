@@ -137,6 +137,7 @@ describe('geocolor', function(){
     geo.legend.symbols[0].from.should.be.ok
     geo.legend.symbols[0].to.should.be.ok
     geo.legend.symbols[0].color.should.be.ok
+    geo.legend.title.should.equal('poverty')
     fs.writeFileSync(__dirname+'/out/styled13.geojson', JSON.stringify(geo, null, 2))
   })
 })

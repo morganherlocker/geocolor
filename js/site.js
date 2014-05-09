@@ -32,7 +32,7 @@ $(function(){
 
     $('#classification').val('Quantiles')
     $('#classification').trigger('change')
-    $('#quantilesZSelect').val('density')
+    $('#quantilesZSelect').val('Density')
     $('#quantilesColor1').val('green')
     $('#quantilesColor2').val('yellow')
     $('#quantilesColor3').val('red')
@@ -240,7 +240,7 @@ $(function(){
 
 function setPopups(layer){
   var content = '<div class="propertiesPopup">'
-  content += '<table class="table table-striped">'
+  content += '<table id="propertiesTable" class="table table-striped">'
   fields.forEach(function(field){
     if(!contains(styleOpts, field)){
       content += '<tr>'
@@ -282,7 +282,7 @@ function setupHelp(){
 
   $('.zFieldHelp').click(function(){
     var help = '<h3>Z Field</h3><hr>'
-    help+= '<p>The z field is what determines a feature\'s relative color. This could be anything from population, to density of cats.'
+    help+= '<p>The z field is what determines a feature\'s relative color. This could be anything from population to density of crime.'
     vex.dialog.alert(help)
   })
 
@@ -294,7 +294,7 @@ function setupHelp(){
 
   $('#stylesHelp').click(function(){
     var help = '<h3>Styles</h3><hr>'
-    help+= '<p>The Styles field allows you to enter any valid <a target="_blank" href="https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0">simplestyle-spec styles</a>. '
+    help+= '<p>The Styles field allows you to enter any valid <a target="_blank" href="https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0">simplestyle-spec</a> style. '
     help+= 'These styles will be applied across all features.'
     help+= '<p>If you had a set of polygons and wanted to change the stroke width and fill opacity, you could enter the following:'
     help+= '<pre><code>{\n  "stroke:thickness": "1",\n  "fill-opacity": 0.4\n}</code></pre>'
@@ -305,8 +305,8 @@ function setupHelp(){
     var help = '<h3>About Geocolor</h3><hr>'
     help+= '<p>Geocolor is a web app and javascript library for creating quick geographic data visualizations such as '
     help+= '<a target="_blank" href="http://en.wikipedia.org/wiki/Choropleth_map">choloropleths</a>. '
-    help+= '<p>Geocolor is <a target="_blank" href="https://github.com/morganherlocker/geocolor">open source</a>, and '
-    help+= 'was created by <a target="_blank" href="https://twitter.com/morganherlocker">@morganherlocker</a>.'
+    help+= '<p>Geocolor is <a target="_blank" href="https://github.com/morganherlocker/geocolor">open source</a> under the <a href="https://raw.githubusercontent.com/morganherlocker/geocolor/gh-pages/LICENSE">MIT License</a>.'
+    help+= '<p>Created by <a target="_blank" href="https://twitter.com/morganherlocker">@morganherlocker</a>.'
     vex.dialog.alert(help)
   })
 }
