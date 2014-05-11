@@ -32,7 +32,7 @@ $(function(){
 
     $('#classification').val('Quantiles')
     $('#classification').trigger('change')
-    $('#quantilesZSelect').val('Density')
+    $('#quantilesZSelect').val('Population Density')
     $('#quantilesColor1').val('green')
     $('#quantilesColor2').val('yellow')
     $('#quantilesColor3').val('red')
