@@ -31,6 +31,7 @@ body {
   min-width:100px;
   box-sizing:border-box;
   background:#fff;
+  border-left: 1px solid #B6B0B0;
   transition:all 200ms;
   -webkit-transition:all 200ms;
 }
