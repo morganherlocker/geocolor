@@ -304,7 +304,7 @@ function setupHelp(){
   $('#aboutLink').click(function(){
     var help = '<h3>About Geocolor</h3><hr>'
     help+= '<p>Geocolor is a web app and javascript library for creating quick geographic data visualizations such as '
-    help+= '<a target="_blank" href="http://en.wikipedia.org/wiki/Choropleth_map">choloropleths</a>. '
+    help+= '<a target="_blank" href="http://en.wikipedia.org/wiki/Choropleth_map">choropleths</a>. '
     help+= '<p>Geocolor is <a target="_blank" href="https://github.com/morganherlocker/geocolor">open source</a> under the <a href="https://raw.githubusercontent.com/morganherlocker/geocolor/gh-pages/LICENSE">MIT License</a>.'
     help+= '<p>Created by <a target="_blank" href="https://twitter.com/morganherlocker">@morganherlocker</a>.'
     vex.dialog.alert(help)
