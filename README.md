@@ -9,17 +9,17 @@ Geocolor classifies data contained in geojson properties, and assigns color valu
 
 ![sc-counties](https://raw.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-03-04%20at%204.25.20%20PM.jpg)
 
-##Install
+## Install
 
 ```bash
 npm install geocolor
 ```
 
-##Colors
+## Colors
 
 The color gradient is defined by simply passing an array of colors with as many stops as you want.
 
-##Classification
+## Classification
 
 Curently supported classifications:
 
@@ -30,7 +30,7 @@ Curently supported classifications:
 - random
 - all
 
-##Example
+## Example
 
 ![gradient](https://raw.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-02-06%20at%203.55.30%20PM.jpg)
 
@@ -98,7 +98,7 @@ geoQuantiles = geocolor.quantiles(cities, z, numberOfBreaks, colors, style)
 console.log(geoQuantiles)
 ```
 
-##Dev
+## Dev
 
 Running tests:
 
@@ -106,7 +106,7 @@ Running tests:
 npm test
 ```
 
-##More Examples
+## More Examples
 
 ![rivers](https://raw.github.com/morganherlocker/geocolor/master/img/Screen%20Shot%202014-03-04%20at%209.51.10%20PM.jpg)
 
